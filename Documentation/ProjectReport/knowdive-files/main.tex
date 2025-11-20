@@ -1,0 +1,89 @@
+\documentclass{knowdive}
+\usepackage{color,soul}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{textcomp}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{rotating}
+\graphicspath{ {images/} }
+
+\usepackage{titlesec}
+\titleformat{\section}{\LARGE\bfseries}{\thesection}{1em}{}
+
+\usepackage{array, makecell}
+%\hypersetup{
+	%pdfauthor={Author1, \and Author2},
+	%pdftitle={Collectives.State of the Art},
+       %pdfkeywords = {},
+      %pdfsubject={}
+      %}
+%\usepackage{hyperref}
+
+
+\graphicspath{ {images/} }
+\usepackage{comment}
+
+\title{KG 2025 - Project Report Template}
+
+\author{Author1, ..., AuthorN}
+
+\revisionhistory{
+    \revision{1}{\today}{Mayukh Bagchi}{Document created}
+}
+\newpage
+
+\fancypagestyle{plain}{
+  \fancyhf{}% Clear header/footer
+  %\fancyhead[R]{\includegraphics[width=1.0\linewidth,height=5pt]{Knowdive_color_bar}}% Right header
+  \fancyfoot[L]{\includegraphics[width=1.0\linewidth,height=45pt]{Knowdive_color_bar}}% Left footer
+  \fancyfoot[C]{Page \thepage\  / \pageref{LastPage}}
+}
+
+\pagestyle{plain}
+%\makeglossaries
+%input{glossaries}
+\begin{document}
+\maketitle
+\begin{sloppypar}
+\large
+\begin{spacing}{1.05}
+%\gls{latex}
+%\gls{batex}
+%\gls{eType}
+%\printglossary
+
+\input{ProjectReport/section/0-introduction}
+
+\input{ProjectReport/section/1-purpose-doi}
+
+
+%\input{ProjectReport/section/3-resources}
+
+\input{ProjectReport/section/4-purposeFormaliation}
+
+% \input{ProjectReport/section/5-informationGathering}
+
+\input{ProjectReport/section/6-languageDefinition}
+
+\input{ProjectReport/section/7-knowledgeDefinition}
+
+\input{ProjectReport/section/8-dataDefinition}
+
+\input{ProjectReport/section/9-evaluation}
+
+\input{ProjectReport/section/10-metadataDefinition}
+
+\input{ProjectReport/section/11-openIssues}
+
+\end{spacing}
+\end{sloppypar}
+\end{document} 
