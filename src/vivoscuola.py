@@ -6,8 +6,9 @@ import polars as pl
 
 # Source: https://www.vivoscuola.it/
 
-PATH_OG = "./data/vivoscuola.csv"
-PATH_CLEAN = "./data/vivoscuola_clean.csv"
+FOLDER = "./data/staging/"
+PATH_OG = FOLDER + "vivoscuola.csv"
+PATH_CLEAN = FOLDER + "vivoscuola_clean.csv"
 
 
 def clean():

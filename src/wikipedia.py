@@ -9,8 +9,9 @@ from functools import reduce
 
 MAIN_LINK = "https://it.wikipedia.org/wiki/Comuni_del_Trentino-Alto_Adige"
 DOMAIN = "https://it.wikipedia.org"
-SCRAPE_PATH = "./data/wikipedia.csv"
-CLEAN_PATH = "./data/wikipedia_clean.csv"
+FOLDER = "./data/staging/"
+SCRAPE_PATH = FOLDER + "wikipedia.csv"
+CLEAN_PATH = FOLDER + "wikipedia_clean.csv"
 
 
 def scrape():
@@ -98,5 +99,29 @@ def clean():
         .list.join("|"),
         lat_n=pl.col("lat").map_elements(parse_coords, return_dtype=pl.Float64),
         lon_n=pl.col("lon").map_elements(parse_coords, return_dtype=pl.Float64),
+    )
+    df.write_csv(CLEAN_PATH, separator=";")
+
+
+def clean_2():
+    df = pl.read_csv(CLEAN_PATH, separator=";")
+    df = df.rename(
+        {
+            "comune": "municipality",
+            "provincia autonoma": "province",
+            "popolazione": "population",
+            "superficie": "surface",
+            "densità": "density",
+            "altitudine": "altitude",
+            "link": "wikipedia link",
+            "codice postale": "postal code",
+            "istat": "istat code",
+            "comuni confinanti": "bordering municipalities",
+            "sito": "website",
+            "lat": "latitude",
+            "lon": "longitude",
+            "lat_n": "latitude numeric",
+            "lon_n": "longitude numeric",
+        }
     )
     df.write_csv(CLEAN_PATH, separator=";")

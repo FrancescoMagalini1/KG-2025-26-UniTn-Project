@@ -6,13 +6,13 @@ from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-
-PATH_SCRAPE = "./data/vivoscuola.json"
-PATH_CLEAN = "./data/vivoscuola_clean.csv"
-PATH_CLEAN_2 = "./data/vivoscuola_clean2.csv"
-PATH_SCHOOL_LINKS = "./data/vivoscuola_school_links.csv"
-PATH_STATS_TEMP = "./data/vivoscuola_stats_temp.csv"
-PATH_STATS = "./data/vivoscuola_stats.json"
+FOLDER = "./data/staging/"
+PATH_SCRAPE = FOLDER + "vivoscuola.json"
+PATH_CLEAN = FOLDER + "vivoscuola_clean.csv"
+PATH_CLEAN_2 = FOLDER + "vivoscuola_clean2.csv"
+PATH_SCHOOL_LINKS = FOLDER + "vivoscuola_school_links.csv"
+PATH_STATS_TEMP = FOLDER + "vivoscuola_stats_temp.csv"
+PATH_STATS = FOLDER + "vivoscuola_stats.json"
 
 
 def get_data():
@@ -148,25 +148,40 @@ def join_and_clean():
 # 'educational coordinator', 'address', 'municipality', 'telephone', 'fax', 'institute email', 'management email',
 # 'secretary's office email', 'website', 'miur code', 'vivoscuola institute link', 'entity'
 def scrape_school_links():
+
+    def parse_page(url):
+        response = requests.get(url)
+        soup = BeautifulSoup(response.content, "html.parser")
+        table = soup.find("table", attrs={"id": "table-unita-scolastiche"}).find(
+            "tbody"
+        )
+        values = []
+        for tr in table.find_all("tr"):
+            anchor = tr.find("td", attrs={"data-label": "Scuole"}).find("a")
+            link = anchor.attrs.get("href")
+            name = anchor.get_text(strip=True)
+            values.append([url, name, "https://www.vivoscuola.it" + link])
+        return values
+
     df = pl.read_csv(PATH_CLEAN_2, separator=";")
     df_links = (
         df.select("main institute", "vivoscuola institute link").unique().to_dicts()
     )
     values = []
-    print("Scraping school links...")
-    for row in df_links:
-        response = requests.get(row["vivoscuola institute link"])
-        soup = BeautifulSoup(response.content, "html.parser")
-        table = soup.find("table", attrs={"id": "table-unita-scolastiche"}).find(
-            "tbody"
-        )
-        for tr in table.find_all("tr"):
-            anchor = tr.find("td", attrs={"data-label": "Scuole"}).find("a")
-            link = anchor.attrs.get("href")
-            name = anchor.get_text(strip=True)
-            values.append([name, "https://www.vivoscuola.it" + link])
+    MAX_THREADS = 4
+    print(f"Scraping {len(df_links)} page links...")
+    with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+        futures = [
+            executor.submit(parse_page, row["vivoscuola institute link"])
+            for row in df_links
+        ]
+        for future in tqdm(as_completed(futures), total=len(df_links)):
+            result = future.result()
+            values += result
     df_school_links = pl.DataFrame(
-        values, schema=["name", "school link"], orient="row"
+        values,
+        schema=["vivoscuola institute link", "name", "school link"],
+        orient="row",
     ).with_columns(pl.col("name").str.to_lowercase())
     df_school_links.write_csv(PATH_SCHOOL_LINKS, separator=";")
     print("Done")
@@ -261,6 +276,26 @@ def scrape_school_stats():
                     for year in content["alunniXClassiAnnoScolasticoCorrente"]
                 ],
             }
+            if "alunniXClassiAnnoScolasticoPrecedente" in content:
+                d["students"]["past_year_students"] = [
+                    {
+                        "academic year": year["annoScolastico"],
+                        "school year": year.get("annoDiCorso", 0),
+                        "number of students": year["numeroAlunni"],
+                        "number of classes": year["numeroClassi"],
+                    }
+                    for year in content["alunniXClassiAnnoScolasticoPrecedente"]
+                ]
+            if "alunniXClassi2AnniScolasticiPrecedenti" in content:
+                d["students"]["past_2years_students"] = [
+                    {
+                        "academic year": year["annoScolastico"],
+                        "school year": year.get("annoDiCorso", 0),
+                        "number of students": year["numeroAlunni"],
+                        "number of classes": year["numeroClassi"],
+                    }
+                    for year in content["alunniXClassi2AnniScolasticiPrecedenti"]
+                ]
         return d
 
     # "school link", "api id"
@@ -282,3 +317,16 @@ def scrape_school_stats():
             values2.append(result)
     with open(PATH_STATS, "w") as f:
         json.dump(values2, f, indent=4)
+
+
+scrape_school_stats()
+"""
+df = pl.read_csv(PATH_CLEAN_2, separator=";")
+df_s = df.filter(pl.col("entity") == "school")
+df_i = df.filter(pl.col("entity") == "institute")
+
+print("schools", df_s.shape)
+print(df_s.null_count().to_dicts())
+print("institute", df_i.shape)
+print(df_i.null_count().to_dicts())
+"""

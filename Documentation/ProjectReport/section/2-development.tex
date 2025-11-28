@@ -1,10 +1,43 @@
 \section{Project Development}
-This section describes, at top level, how the project's purpose will be satisfied.
-More in details the current section is divided in two main subsections, defined as follows.
+This section describes, at top level, the work behind the project's development.
 
-\subsection{Data Production}
-The description of which (quality) data needs to be created to satisfy the project purpose. In this sub-section the role of the data producer is central. The sub-section aims at describing how the data producer enables the subsequent work of the data consumer, by creating the data required to satisfy the project's purpose.
+\subsection{Data Sources}
+Three main surces of raw data have been selected in order to build the final knowledge graph.
 
-\subsection{Data Composition}
-This sub-section aims at describing the work of the data consumer in the project. More in details, how the consumer composes the data, previously created by the producer, with the objective of creating a Knowledge Graph suitable to satisfy the project's purpose.
+\subsubsection{Wikipedia}
+In order to obtain all the municipalities from the Trentino region, wikipedia was selected as a source.
+Starting from this (https://it.wikipedia.org/wiki/Comuni_del_Trentino-Alto_Adige) page, using Python and the BeautifulSoup package, the complete list was scraped from a table using attribute selectors and regexes.
+The municipalities from the Bolzano province that were present as well in the table have been left out. With this initial gathering, information such as name, population, density and altitude have been collected.
+Moreover for every entry of the table the link for the municipality own page has been collected. From this each single page have been scraped in order to obtain additional data such as postal code, istat code, latitude, longitude and bordering municipalities.
+Only the bordering municipalities that are municipalities of Trento (that is only the ones included in the dataset) have been connsidered. For the cleaning processes the Polars library was used for manipulating the csv file with high performance and ease of use.
 
+
+166 rows.
+
+municipality;province;population;surface;density;altitude;wikipedia link;postal code;istat code;sito;bordering municipalities;latitude;longitude;latitude numeric;longitude numeric
+
+\subsubsection{Vivoscuola}
+Vivoscuola is the Trentino school site with the goal of supporting the ongoing improvement of the Trentino education system and the contact between schools and families.
+This website contains of all the schools from kindergarten to secondary schools (universities are not included) in the Trento province.
+A .csv file was easily available and downloadable right from the website. It required a little bit cleaning, that was done with Python and Polars, and it contained almost all of the data properties that will be listed below.
+
+Now in order to access the "Sistema informativo della scuola trentina" APIs we needed an unique school id that could be found on the Vivoscuola school page, inside the HTML code.
+Using Python and BeautifulSoup we first scraped the search page, after artificially changing the query parameters in order to obtain the full list of institutes and schools.
+With this process we gathered all the school page links. Now we scraped each page in order to get the API id, in order to speed up the process we used a multithreaded approach.
+
+1012 rows
+
+main institute;school;school type;administration type;manager;director;educational coordinator;address;municipality;telephone;fax;institute email;management email;secretary's office email;website;miur code;vivoscuola institute link;entity
+
+
+\subsubsection{Sistema informativo della scuola trentina}
+Sistema informativo della scuola trentina is a digital service provider for schools in the Trentino region. It provides a digital registry for the professor as well as other tools for the managment in order to facilitate the supervision of the necessary operations.
+This system provides open API endpoints that can provide data regarding the number of classes and students attending each school. 
+
+After obtaining all the unique school ids from the vivoscuola website we are able to query the APIs. Please note that the school link has been noted down in order to link this data with the vivoscuola dataset later if necessary.
+After some brief data cleaning the shape of the data is the following:
+
+Paste here first object
+
+\subsection{Protégé}
+\subsection{Karma}
