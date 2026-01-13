@@ -317,16 +317,3 @@ def scrape_school_stats():
             values2.append(result)
     with open(PATH_STATS, "w") as f:
         json.dump(values2, f, indent=4)
-
-
-scrape_school_stats()
-"""
-df = pl.read_csv(PATH_CLEAN_2, separator=";")
-df_s = df.filter(pl.col("entity") == "school")
-df_i = df.filter(pl.col("entity") == "institute")
-
-print("schools", df_s.shape)
-print(df_s.null_count().to_dicts())
-print("institute", df_i.shape)
-print(df_i.null_count().to_dicts())
-"""

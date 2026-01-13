@@ -17,6 +17,8 @@ STATS = STAGING_FOLDER + "vivoscuola_stats.json"
 AVERAGE_ADMISSION_RATES = FINAL_FOLDER + "average_admission_rates.csv"
 ADMISSION_RATES = FINAL_FOLDER + "admission_rates.csv"
 STUDENTS = FINAL_FOLDER + "students.csv"
+MIUR_CODE_CHECK = FINAL_FOLDER + "miur code check.csv"
+STATISTICS = FINAL_FOLDER + "statistics.csv"
 
 
 def municipality_join_attempt():
@@ -194,7 +196,9 @@ def clean_stats():
 
 
 def add_admission_rates():
-    df = pl.read_csv(SCHOOLS_FINAL, separator=";")
+    df = pl.read_csv(
+        SCHOOLS_FINAL, separator=";", schema_overrides={"telephone": pl.String}
+    )
     admission_rates = pl.read_csv(AVERAGE_ADMISSION_RATES, separator=";").filter(
         pl.col("admission rate") != 0
     )
@@ -203,4 +207,167 @@ def add_admission_rates():
     )
 
 
-add_admission_rates()
+def general_explore():
+    df = pl.read_csv(VIVOSCUOLA_FINAL, separator=";")
+    df_s = df.filter(pl.col("entity") == "school")
+    df_i = df.filter(pl.col("entity") == "institute")
+
+    print("schools", df_s.shape)
+    print(df_s.null_count().to_dicts())
+    print("institute", df_i.shape)
+    print(df_i.null_count().to_dicts())
+    print("\n\n")
+    cols_to_check = [
+        "administration type",
+        "manager",
+        "director",
+        "educational coordinator",
+        "address",
+        "municipality",
+        "telephone",
+        "fax",
+        "institute email",
+        "management email",
+        "secretary's office email",
+        "website",
+        "miur code",
+    ]
+
+    df_dup = df.group_by("main institute").agg(pl.col(cols_to_check).n_unique())
+    long = df_dup.unpivot(
+        index="main institute", variable_name="column", value_name="n_unique"
+    )
+    summary = long.group_by("column").agg(
+        (pl.col("n_unique") > 1).any().alias("has_inconsistency")
+    )
+    print(summary.filter(pl.col("has_inconsistency") == False))
+    print(summary.filter(pl.col("has_inconsistency") == True))
+
+
+def focused_explore(col_name: str):
+    df = pl.read_csv(VIVOSCUOLA_FINAL, separator=";")
+    df = (
+        df.select("main institute", col_name)
+        .with_columns(count=pl.col(col_name).n_unique().over("main institute"))
+        .filter(pl.col("count") > 1)
+    )
+    print(df)
+
+
+def miur_code_explore():
+    df = pl.read_csv(VIVOSCUOLA_FINAL, separator=";").select(
+        "main institute", "school", "miur code", "entity", "address"
+    )
+    df_g = (
+        df.select("main institute", "miur code")
+        .group_by("main institute")
+        .agg("miur code")
+        .with_columns(
+            pl.col("miur code")
+            .list.filter(pl.element().is_not_null())
+            .list.unique()
+            .alias("miur code list")
+        )
+        .select(pl.exclude("miur code"))
+    )
+    df_s = (
+        df.select("main institute", "entity")
+        .filter(pl.col("entity") == "school")
+        .group_by("main institute")
+        .agg(pl.col("entity").len().alias("school count"))
+    )
+    df = (
+        df.join(df_g, on="main institute", how="left")
+        .join(df_s, on="main institute", how="left")
+        .with_columns(
+            (
+                (pl.col("school count") - pl.col("miur code list").list.len()).alias(
+                    "check"
+                )
+            ),
+            (pl.col("miur code list").list.join("|")),
+        )
+    )
+    df.write_csv(MIUR_CODE_CHECK, separator=";")
+
+
+def clean_telephone():
+    df = pl.read_csv(VIVOSCUOLA_FINAL, separator=";").with_columns(
+        pl.col("telephone").str.replace_all(r"[\/\- ]", "")
+    )
+    df.write_csv(VIVOSCUOLA_FINAL, separator=";")
+
+
+def fix_directors():
+    pl.read_csv(VIVOSCUOLA_FINAL, separator=";").with_columns(
+        pl.col("director").fill_null(strategy="backward").over("main institute")
+    ).write_csv(VIVOSCUOLA_FINAL, separator=";")
+
+
+def final_cleanup():
+    df = pl.read_csv(
+        VIVOSCUOLA_FINAL, separator=";", schema_overrides={"telephone": pl.String}
+    )
+    df.filter(pl.col("entity") == "institute").select(
+        [
+            "main institute",
+            "institute type",
+            "administration type",
+            "manager",
+            "director",
+            "educational coordinator",
+            "address",
+            "municipality",
+            "telephone",
+            "fax",
+            "institute email",
+            "management email",
+            "secretary's office email",
+            "website",
+            "miur code",
+            "vivoscuola institute link",
+            "wikipedia municipality link",
+        ]
+    ).write_csv(INSTITUTES_FINAL, separator=";")
+    df.filter(pl.col("entity") == "school").select(
+        [
+            "school",
+            "address",
+            "municipality",
+            "telephone",
+            "institute email",
+            "miur code",
+            "vivoscuola institute link",
+            "wikipedia municipality link",
+            "vivoscuola school link",
+        ]
+    ).write_csv(SCHOOLS_FINAL, separator=";")
+
+
+df_s = pl.read_csv(STUDENTS, separator=";")
+df_a = pl.read_csv(ADMISSION_RATES, separator=";")
+df = (
+    df_s.join(
+        df_a, on=["vivoscuola school link", "academic year", "school year"], how="full"
+    )
+    .with_columns(
+        pl.when(pl.col("vivoscuola school link").is_not_null())
+        .then("vivoscuola school link")
+        .otherwise("vivoscuola school link_right")
+        .alias("vivoscuola school link"),
+        pl.when(pl.col("academic year").is_not_null())
+        .then("academic year")
+        .otherwise("academic year_right")
+        .alias("academic year"),
+        pl.when(pl.col("school year").is_not_null())
+        .then("school year")
+        .otherwise("school year_right")
+        .alias("school year"),
+    )
+    .select(
+        pl.exclude(
+            "vivoscuola school link_right", "academic year_right", "school year_right"
+        )
+    )
+)
+df.write_csv(FINAL_FOLDER + "test.csv", separator=";")

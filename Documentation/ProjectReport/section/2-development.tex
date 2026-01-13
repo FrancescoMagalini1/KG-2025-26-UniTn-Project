@@ -14,7 +14,21 @@ Only the bordering municipalities that are municipalities of Trento (that is onl
 
 166 rows.
 
-municipality;province;population;surface;density;altitude;wikipedia link;postal code;istat code;sito;bordering municipalities;latitude;longitude;latitude numeric;longitude numeric
+municipality name of the municipality
+province name of the province
+population pop. from ISTAT 01/01/2024
+surface in km^2
+density in ab/km^2
+altitude in mslm
+wikipedia link link of the wikipedia page
+postal code
+istat code
+sito
+bordering municipalities
+latitude in the format: 46°09′N
+longitude in the format: 11°12′E
+latitude numeric
+longitude numeric
 
 \subsubsection{Vivoscuola}
 Vivoscuola is the Trentino school site with the goal of supporting the ongoing improvement of the Trentino education system and the contact between schools and families.
@@ -27,7 +41,25 @@ With this process we gathered all the school page links. Now we scraped each pag
 
 1012 rows
 
-main institute;school;school type;administration type;manager;director;educational coordinator;address;municipality;telephone;fax;institute email;management email;secretary's office email;website;miur code;vivoscuola institute link;entity
+main institute
+school
+institute type
+administration type
+manager
+director
+educational coordinator
+address
+municipality
+telephone
+fax
+institute email
+management email
+secretary's office email
+website
+miur code
+vivoscuola institute link
+vivoscuola school link
+entity
 
 
 \subsubsection{Sistema informativo della scuola trentina}
@@ -35,9 +67,139 @@ Sistema informativo della scuola trentina is a digital service provider for scho
 This system provides open API endpoints that can provide data regarding the number of classes and students attending each school. 
 
 After obtaining all the unique school ids from the vivoscuola website we are able to query the APIs. Please note that the school link has been noted down in order to link this data with the vivoscuola dataset later if necessary.
-After some brief data cleaning the shape of the data is the following:
+After some brief data cleaning the result is an array where every object is shaped like the following example:
 
-Paste here first object
+{
+        "school link": "https://www.vivoscuola.it/content/view/full/29266",
+        "api id": "0222059697",
+        "grades": {
+            "percentage admissions total": 75.24557956777997,
+            "results": [
+                {
+                    "percentages": [
+                        61.93181818181818,
+                        76.08695652173914,
+                        76.36363636363637,
+                        85.71428571428571
+                    ],
+                    "name": "Amessi 2022/23"
+                },
+                {
+                    "percentages": [
+                        61.76470588235294,
+                        67.83216783216784,
+                        91.80327868852459,
+                        95.0
+                    ],
+                    "name": "Amessi 2023/24"
+                },
+                {
+                    "percentages": [
+                        64.8936170212766,
+                        79.5774647887324,
+                        79.81651376146789,
+                        87.14285714285714
+                    ],
+                    "name": "Amessi 2024/25"
+                },
+                {
+                    "percentages": [
+                        78.43713278495888,
+                        84.78701825557809,
+                        86.82114409847937,
+                        90.57043073341094
+                    ],
+                    "name": "Amessi 2024/25 PAT"
+                }
+            ]
+        },
+        "students": {
+            "current_students": [
+                {
+                    "academic year": "2025/26",
+                    "school year": 1,
+                    "number of students": 173,
+                    "number of classes": 8
+                },
+                {
+                    "academic year": "2025/26",
+                    "school year": 2,
+                    "number of students": 159,
+                    "number of classes": 9
+                },
+                {
+                    "academic year": "2025/26",
+                    "school year": 3,
+                    "number of students": 134,
+                    "number of classes": 9
+                },
+                {
+                    "academic year": "2025/26",
+                    "school year": 4,
+                    "number of students": 62,
+                    "number of classes": 6
+                }
+            ],
+            "past_year_students": [
+                {
+                    "academic year": "2024/25",
+                    "school year": 1,
+                    "number of students": 210,
+                    "number of classes": 9
+                },
+                {
+                    "academic year": "2024/25",
+                    "school year": 2,
+                    "number of students": 162,
+                    "number of classes": 9
+                },
+                {
+                    "academic year": "2024/25",
+                    "school year": 3,
+                    "number of students": 115,
+                    "number of classes": 7
+                },
+                {
+                    "academic year": "2024/25",
+                    "school year": 4,
+                    "number of students": 76,
+                    "number of classes": 6
+                }
+            ],
+            "past_2years_students": [
+                {
+                    "academic year": "2023/24",
+                    "school year": 1,
+                    "number of students": 176,
+                    "number of classes": 8
+                },
+                {
+                    "academic year": "2023/24",
+                    "school year": 2,
+                    "number of students": 158,
+                    "number of classes": 9
+                },
+                {
+                    "academic year": "2023/24",
+                    "school year": 3,
+                    "number of students": 130,
+                    "number of classes": 9
+                },
+                {
+                    "academic year": "2023/24",
+                    "school year": 4,
+                    "number of students": 64,
+                    "number of classes": 4
+                },
+                {
+                    "academic year": "2023/24",
+                    "school year": 5,
+                    "number of students": 23,
+                    "number of classes": 1
+                }
+            ]
+        }
+    },
 
 \subsection{Protégé}
 \subsection{Karma}
