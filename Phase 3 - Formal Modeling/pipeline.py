@@ -107,12 +107,29 @@ def stats_relations():
     )
 
 
-df = (
-    pl.read_csv(INPUT_FOLDER + "wikipedia.csv", separator=";")
-    .select("municipality")
-    .with_columns(
-        pl.col("municipality").str.replace_all(r"[a-zA-Z]", "").alias("non_letters")
+def join_school_types():
+    df_s = pl.read_csv(INPUT_FOLDER + "schools.csv", separator=";").select(
+        "index", "school", "vivoscuola institute link"
     )
-    .filter(pl.col("non_letters").str.len_chars() > 0)
-)
-print(df.head(n=20))
+    df_i = (
+        pl.read_csv(INPUT_FOLDER + "institutes.csv", separator=";")
+        .select("main institute", "vivoscuola institute link")
+        .rename({"main institute": "institute"})
+    )
+    df = (
+        df_s.join(df_i, on="vivoscuola institute link", how="left")
+        .select(pl.exclude("vivoscuola institute link"))
+        .with_columns(
+            pl.col("school").str.strip_chars(), pl.col("institute").str.strip_chars()
+        )
+    )
+    df_t = pl.read_csv(INPUT_FOLDER + "school_types.csv", separator=";").with_columns(
+        pl.col("school").str.strip_chars(), pl.col("institute").str.strip_chars()
+    )
+    df = df.join(df_t, on=["institute", "school"], how="left").select(
+        "index", "school type"
+    )
+    df.write_csv(INPUT_FOLDER + "school_types_final.csv", separator=";")
+
+
+join_school_types()

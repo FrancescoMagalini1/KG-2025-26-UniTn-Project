@@ -1,0 +1,744 @@
+index;school type
+1;primaria
+2;secondaria di primo grado
+3;secondaria di secondo grado
+4;infanzia
+5;secondaria di secondo grado
+6;formazione professionale
+7;secondaria di secondo grado
+8;formazione professionale
+9;secondaria di secondo grado
+10;formazione professionale
+11;formazione professionale
+12;secondaria di secondo grado
+13;formazione professionale
+14;formazione professionale
+15;formazione professionale
+16;secondaria di secondo grado
+17;formazione professionale
+18;formazione professionale
+19;secondaria di secondo grado
+20;secondaria di secondo grado
+21;formazione professionale
+22;formazione professionale
+23;secondaria di secondo grado
+24;formazione professionale
+25;secondaria di secondo grado
+26;formazione professionale
+27;formazione professionale
+28;formazione professionale
+29;secondaria di secondo grado
+30;formazione professionale
+31;secondaria di secondo grado
+32;formazione professionale
+33;secondaria di secondo grado
+34;formazione professionale
+35;formazione professionale
+36;secondaria di secondo grado
+37;formazione professionale
+38;secondaria di secondo grado
+39;formazione professionale
+40;secondaria di secondo grado
+41;formazione professionale
+42;secondaria di secondo grado
+43;formazione professionale
+44;formazione professionale
+45;infanzia
+46;infanzia
+47;infanzia
+48;infanzia
+49;infanzia
+50;infanzia
+51;infanzia
+52;infanzia
+53;infanzia
+54;infanzia
+55;infanzia
+56;infanzia
+57;infanzia
+58;infanzia
+59;infanzia
+60;infanzia
+61;infanzia
+62;infanzia
+63;infanzia
+64;infanzia
+65;infanzia
+66;infanzia
+67;infanzia
+68;infanzia
+69;infanzia
+70;infanzia
+71;infanzia
+72;infanzia
+73;infanzia
+74;infanzia
+75;infanzia
+76;infanzia
+77;infanzia
+78;infanzia
+79;infanzia
+80;infanzia
+81;infanzia
+82;infanzia
+83;infanzia
+84;infanzia
+85;infanzia
+86;infanzia
+87;infanzia
+88;infanzia
+89;infanzia
+90;infanzia
+91;infanzia
+92;infanzia
+93;infanzia
+94;infanzia
+95;infanzia
+96;infanzia
+97;infanzia
+98;infanzia
+99;infanzia
+100;infanzia
+101;infanzia
+102;infanzia
+103;infanzia
+104;infanzia
+105;infanzia
+106;infanzia
+107;infanzia
+108;infanzia
+109;infanzia
+110;infanzia
+111;infanzia
+112;infanzia
+113;infanzia
+114;infanzia
+115;infanzia
+116;infanzia
+117;infanzia
+118;infanzia
+119;infanzia
+120;infanzia
+121;infanzia
+122;infanzia
+123;infanzia
+124;infanzia
+125;infanzia
+126;infanzia
+127;infanzia
+128;infanzia
+129;infanzia
+130;infanzia
+131;infanzia
+132;infanzia
+133;infanzia
+134;infanzia
+135;infanzia
+136;infanzia
+137;infanzia
+138;infanzia
+139;infanzia
+140;infanzia
+141;infanzia
+142;infanzia
+143;infanzia
+144;infanzia
+145;infanzia
+146;infanzia
+147;infanzia
+148;secondaria di secondo grado
+149;secondaria di secondo grado
+150;secondaria di secondo grado
+151;secondaria di secondo grado
+152;primaria
+153;secondaria di primo grado
+154;secondaria di secondo grado
+155;primaria
+156;secondaria di primo grado
+157;primaria
+158;infanzia
+159;infanzia
+160;infanzia
+161;secondaria di secondo grado
+162;secondaria di secondo grado
+163;formazione professionale
+164;primaria
+165;primaria
+166;secondaria di primo grado
+167;primaria
+168;primaria
+169;primaria
+170;primaria
+171;secondaria di primo grado
+172;secondaria di primo grado
+173;primaria
+174;primaria
+175;primaria
+176;primaria
+177;primaria
+178;secondaria di primo grado
+179;primaria
+180;primaria
+181;primaria
+182;secondaria di primo grado
+183;primaria
+184;primaria
+185;primaria
+186;secondaria di primo grado
+187;primaria
+188;primaria
+189;primaria
+190;primaria
+191;secondaria di primo grado
+192;primaria
+193;primaria
+194;secondaria di primo grado
+195;primaria
+196;primaria
+197;primaria
+198;primaria
+199;primaria
+200;primaria
+201;secondaria di primo grado
+202;secondaria di primo grado
+203;primaria
+204;primaria
+205;primaria
+206;primaria
+207;primaria
+208;secondaria di primo grado
+209;primaria
+210;primaria
+211;secondaria di primo grado
+212;secondaria di primo grado
+213;primaria
+214;secondaria di primo grado
+215;primaria
+216;primaria
+217;primaria
+218;primaria
+219;primaria
+220;primaria
+221;primaria
+222;primaria
+223;secondaria di primo grado
+224;primaria
+225;primaria
+226;primaria
+227;primaria
+228;primaria
+229;primaria
+230;secondaria di primo grado
+231;secondaria di primo grado
+232;secondaria di primo grado
+233;primaria
+234;primaria
+235;primaria
+236;primaria
+237;primaria
+238;primaria
+239;primaria
+240;secondaria di primo grado
+241;secondaria di primo grado
+242;primaria
+243;primaria
+244;primaria
+245;primaria
+246;secondaria di primo grado
+247;secondaria di primo grado
+248;primaria
+249;primaria
+250;primaria
+251;secondaria di primo grado
+252;primaria
+253;primaria
+254;primaria
+255;primaria
+256;secondaria di primo grado
+257;secondaria di primo grado
+258;secondaria di secondo grado
+259;secondaria di secondo grado
+260;secondaria di secondo grado
+261;primaria
+262;primaria
+263;primaria
+264;primaria
+265;secondaria di primo grado
+266;secondaria di primo grado
+267;infanzia
+268;infanzia
+269;infanzia
+270;infanzia
+271;primaria
+272;primaria
+273;secondaria di primo grado
+274;secondaria di primo grado
+275;primaria
+276;primaria
+277;primaria
+278;primaria
+279;primaria
+280;primaria
+281;primaria
+282;primaria
+283;secondaria di primo grado
+284;secondaria di primo grado
+285;primaria
+286;primaria
+287;primaria
+288;primaria
+289;primaria
+290;secondaria di primo grado
+291;primaria
+292;primaria
+293;secondaria di primo grado
+294;primaria
+295;primaria
+296;primaria
+297;secondaria di primo grado
+298;primaria
+299;primaria
+300;primaria
+301;primaria
+302;secondaria di primo grado
+303;primaria
+304;primaria
+305;primaria
+306;primaria
+307;secondaria di primo grado
+308;primaria
+309;primaria
+310;primaria
+311;primaria
+312;primaria
+313;primaria
+314;secondaria di primo grado
+315;secondaria di primo grado
+316;secondaria di primo grado
+317;primaria
+318;primaria
+319;secondaria di primo grado
+320;primaria
+321;primaria
+322;primaria
+323;primaria
+324;primaria
+325;secondaria di primo grado
+326;primaria
+327;primaria
+328;primaria
+329;primaria
+330;secondaria di primo grado
+331;primaria
+332;primaria
+333;primaria
+334;secondaria di primo grado
+335;secondaria di primo grado
+336;primaria
+337;primaria
+338;primaria
+339;secondaria di primo grado
+340;primaria
+341;primaria
+342;primaria
+343;secondaria di primo grado
+344;primaria
+345;primaria
+346;primaria
+347;primaria
+348;secondaria di primo grado
+349;primaria
+350;primaria
+351;secondaria di primo grado
+352;primaria
+353;primaria
+354;primaria
+355;secondaria di primo grado
+356;primaria
+357;primaria
+358;primaria
+359;primaria
+360;primaria
+361;primaria
+362;secondaria di primo grado
+363;secondaria di primo grado
+364;primaria
+365;primaria
+366;primaria
+367;secondaria di primo grado
+368;secondaria di primo grado
+369;primaria
+370;primaria
+371;primaria
+372;primaria
+373;primaria
+374;secondaria di primo grado
+375;secondaria di primo grado
+376;primaria
+377;primaria
+378;secondaria di primo grado
+379;primaria
+380;primaria
+381;primaria
+382;primaria
+383;secondaria di primo grado
+384;primaria
+385;primaria
+386;primaria
+387;primaria
+388;secondaria di primo grado
+389;primaria
+390;primaria
+391;primaria
+392;secondaria di primo grado
+393;primaria
+394;primaria
+395;primaria
+396;secondaria di primo grado
+397;primaria
+398;primaria
+399;primaria
+400;primaria
+401;primaria
+402;primaria
+403;secondaria di primo grado
+404;primaria
+405;primaria
+406;primaria
+407;primaria
+408;secondaria di primo grado
+409;primaria
+410;primaria
+411;primaria
+412;primaria
+413;primaria
+414;primaria
+415;primaria
+416;secondaria di primo grado
+417;secondaria di primo grado
+418;secondaria di primo grado
+419;primaria
+420;primaria
+421;primaria
+422;primaria
+423;primaria
+424;primaria
+425;primaria
+426;primaria
+427;secondaria di primo grado
+428;secondaria di primo grado
+429;secondaria di primo grado
+430;primaria
+431;primaria
+432;primaria
+433;secondaria di primo grado
+434;primaria
+435;primaria
+436;primaria
+437;secondaria di primo grado
+438;primaria
+439;primaria
+440;primaria
+441;primaria
+442;secondaria di primo grado
+443;secondaria di secondo grado
+444;formazione professionale
+445;formazione professionale
+446;formazione professionale
+447;secondaria di secondo grado
+448;formazione professionale
+449;formazione professionale
+450;formazione professionale
+451;secondaria di secondo grado
+452;formazione professionale
+453;formazione professionale
+454;formazione professionale
+455;formazione professionale
+456;secondaria di primo grado
+457;secondaria di secondo grado
+458;secondaria di secondo grado
+459;secondaria di secondo grado
+460;secondaria di secondo grado
+461;secondaria di secondo grado
+462;secondaria di secondo grado
+463;secondaria di secondo grado
+464;secondaria di secondo grado
+465;secondaria di primo grado
+466;secondaria di secondo grado
+467;secondaria di secondo grado
+468;secondaria di secondo grado
+469;secondaria di secondo grado
+470;secondaria di primo grado
+471;secondaria di secondo grado
+472;secondaria di secondo grado
+473;secondaria di secondo grado
+474;secondaria di secondo grado
+475;secondaria di secondo grado
+476;secondaria di secondo grado
+477;secondaria di secondo grado
+478;secondaria di secondo grado
+479;secondaria di primo grado
+480;secondaria di secondo grado
+481;secondaria di secondo grado
+482;secondaria di secondo grado
+483;secondaria di secondo grado
+484;secondaria di secondo grado
+485;secondaria di secondo grado
+486;secondaria di secondo grado
+487;secondaria di secondo grado
+488;secondaria di primo grado
+489;secondaria di secondo grado
+490;secondaria di secondo grado
+491;secondaria di secondo grado
+492;secondaria di secondo grado
+493;secondaria di secondo grado
+494;secondaria di secondo grado
+495;secondaria di secondo grado
+496;secondaria di secondo grado
+497;secondaria di secondo grado
+498;secondaria di secondo grado
+499;secondaria di primo grado
+500;secondaria di secondo grado
+501;secondaria di secondo grado
+502;secondaria di secondo grado
+503;secondaria di secondo grado
+504;secondaria di secondo grado
+505;secondaria di secondo grado
+506;secondaria di secondo grado
+507;secondaria di secondo grado
+508;secondaria di secondo grado
+509;secondaria di secondo grado
+510;primaria
+511;secondaria di primo grado
+512;secondaria di secondo grado
+513;secondaria di secondo grado
+514;secondaria di secondo grado
+515;primaria
+516;secondaria di primo grado
+517;secondaria di primo grado
+518;primaria
+519;secondaria di primo grado
+520;secondaria di secondo grado
+521;secondaria di secondo grado
+522;secondaria di primo grado
+523;secondaria di secondo grado
+524;secondaria di secondo grado
+525;secondaria di secondo grado
+526;secondaria di secondo grado
+527;secondaria di secondo grado
+528;secondaria di secondo grado
+529;secondaria di secondo grado
+530;secondaria di secondo grado
+531;secondaria di primo grado
+532;secondaria di secondo grado
+533;secondaria di secondo grado
+534;secondaria di secondo grado
+535;secondaria di secondo grado
+536;secondaria di secondo grado
+537;secondaria di secondo grado
+538;secondaria di secondo grado
+539;secondaria di secondo grado
+540;secondaria di secondo grado
+541;secondaria di secondo grado
+542;secondaria di secondo grado
+543;secondaria di secondo grado
+544;secondaria di secondo grado
+545;secondaria di secondo grado
+546;secondaria di secondo grado
+547;secondaria di secondo grado
+548;secondaria di secondo grado
+549;secondaria di secondo grado
+550;formazione professionale
+551;secondaria di secondo grado
+552;secondaria di primo grado
+553;secondaria di secondo grado
+554;secondaria di secondo grado
+555;secondaria di secondo grado
+556;secondaria di secondo grado
+557;secondaria di secondo grado
+558;secondaria di secondo grado
+559;secondaria di secondo grado
+560;secondaria di secondo grado
+561;secondaria di secondo grado
+562;secondaria di secondo grado
+563;secondaria di secondo grado
+564;secondaria di secondo grado
+565;secondaria di secondo grado
+566;secondaria di secondo grado
+567;secondaria di secondo grado
+568;secondaria di secondo grado
+569;secondaria di secondo grado
+570;secondaria di secondo grado
+571;secondaria di secondo grado
+572;secondaria di secondo grado
+573;secondaria di secondo grado
+574;secondaria di secondo grado
+575;secondaria di secondo grado
+576;secondaria di secondo grado
+577;formazione professionale
+578;formazione professionale
+579;infanzia
+580;infanzia
+581;infanzia
+582;infanzia
+583;infanzia
+584;infanzia
+585;infanzia
+586;infanzia
+587;infanzia
+588;infanzia
+589;infanzia
+590;infanzia
+591;infanzia
+592;infanzia
+593;infanzia
+594;infanzia
+595;infanzia
+596;infanzia
+597;infanzia
+598;infanzia
+599;infanzia
+600;infanzia
+601;infanzia
+602;infanzia
+603;infanzia
+604;infanzia
+605;infanzia
+606;infanzia
+607;infanzia
+608;infanzia
+609;infanzia
+610;infanzia
+611;infanzia
+612;infanzia
+613;infanzia
+614;infanzia
+615;infanzia
+616;infanzia
+617;infanzia
+618;infanzia
+619;infanzia
+620;infanzia
+621;infanzia
+622;infanzia
+623;infanzia
+624;infanzia
+625;infanzia
+626;infanzia
+627;infanzia
+628;infanzia
+629;infanzia
+630;infanzia
+631;infanzia
+632;infanzia
+633;infanzia
+634;infanzia
+635;infanzia
+636;infanzia
+637;infanzia
+638;infanzia
+639;infanzia
+640;infanzia
+641;infanzia
+642;infanzia
+643;infanzia
+644;infanzia
+645;infanzia
+646;infanzia
+647;infanzia
+648;infanzia
+649;infanzia
+650;infanzia
+651;infanzia
+652;infanzia
+653;infanzia
+654;infanzia
+655;infanzia
+656;infanzia
+657;infanzia
+658;infanzia
+659;infanzia
+660;infanzia
+661;infanzia
+662;infanzia
+663;infanzia
+664;infanzia
+665;infanzia
+666;infanzia
+667;infanzia
+668;infanzia
+669;infanzia
+670;infanzia
+671;infanzia
+672;infanzia
+673;infanzia
+674;infanzia
+675;infanzia
+676;infanzia
+677;infanzia
+678;infanzia
+679;infanzia
+680;infanzia
+681;infanzia
+682;infanzia
+683;infanzia
+684;infanzia
+685;infanzia
+686;infanzia
+687;infanzia
+688;infanzia
+689;infanzia
+690;infanzia
+691;infanzia
+692;infanzia
+693;infanzia
+694;infanzia
+695;infanzia
+696;infanzia
+697;infanzia
+698;infanzia
+699;infanzia
+700;infanzia
+701;infanzia
+702;infanzia
+703;infanzia
+704;infanzia
+705;infanzia
+706;infanzia
+707;infanzia
+708;infanzia
+709;infanzia
+710;infanzia
+711;infanzia
+712;infanzia
+713;infanzia
+714;infanzia
+715;infanzia
+716;infanzia
+717;infanzia
+718;infanzia
+719;infanzia
+720;infanzia
+721;infanzia
+722;infanzia
+723;infanzia
+724;infanzia
+725;infanzia
+726;infanzia
+727;infanzia
+728;secondaria di secondo grado
+729;secondaria di secondo grado
+730;secondaria di secondo grado
+731;primaria
+732;primaria
+733;primaria
+734;primaria
+735;secondaria di primo grado
+736;secondaria di primo grado
+737;secondaria di primo grado
+738;primaria
+739;secondaria di primo grado
+740;secondaria di secondo grado
+741;secondaria di secondo grado
+742;secondaria di secondo grado
+743;formazione professionale

@@ -305,6 +305,15 @@
     
 
 
+    <!-- http://knowdive.disi.unitn.it/etype#has_school_type -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_school_type">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://knowdive.disi.unitn.it/etype#has_school_year -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_school_year">
