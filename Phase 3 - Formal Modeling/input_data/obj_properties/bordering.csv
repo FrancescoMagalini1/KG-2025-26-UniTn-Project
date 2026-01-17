@@ -1,0 +1,904 @@
+name;bordering
+ala;avio
+ala;brentonico
+ala;mori
+ala;rovereto
+ala;vallarsa
+albiano;cembra lisignago
+albiano;civezzano
+albiano;fornace
+albiano;giovo
+albiano;lona-lases
+albiano;trento
+aldeno;besenello
+aldeno;cimone
+aldeno;garniga terme
+aldeno;nomi
+aldeno;pomarolo
+aldeno;trento
+altavalle;capriana
+altavalle;cembra lisignago
+altavalle;segonzano
+altavalle;sover
+altopiano della vigolana;besenello
+altopiano della vigolana;calceranica al lago
+altopiano della vigolana;caldonazzo
+altopiano della vigolana;folgaria
+altopiano della vigolana;pergine valsugana
+altopiano della vigolana;trento
+amblar-don;cavareno
+amblar-don;predaia
+amblar-don;romeno
+amblar-don;sfruz
+andalo;cavedago
+andalo;fai della paganella
+andalo;molveno
+andalo;san lorenzo dorsino
+andalo;terre d'adige
+andalo;vallelaghi
+arco;comano terme
+arco;drena
+arco;dro
+arco;mori
+arco;nago-torbole
+arco;riva del garda
+arco;ronzo-chienis
+arco;tenno
+arco;villa lagarina
+avio;ala
+avio;brentonico
+baselga di piné;bedollo
+baselga di piné;fornace
+baselga di piné;lona-lases
+baselga di piné;palù del fersina
+baselga di piné;pergine valsugana
+baselga di piné;sant'orsola terme
+baselga di piné;segonzano
+baselga di piné;telve
+baselga di piné;valfloriana
+bedollo;baselga di piné
+bedollo;lona-lases
+bedollo;palù del fersina
+bedollo;sant'orsola terme
+bedollo;segonzano
+bedollo;sover
+besenello;aldeno
+besenello;altopiano della vigolana
+besenello;calliano
+besenello;folgaria
+besenello;nomi
+besenello;trento
+bieno;pieve tesino
+bieno;scurelle
+bleggio superiore;borgo lares
+bleggio superiore;comano terme
+bleggio superiore;fiavé
+bleggio superiore;ledro
+bleggio superiore;tione di trento
+bocenago;comano terme
+bocenago;caderzone terme
+bocenago;massimeno
+bocenago;spiazzo
+bocenago;stenico
+bocenago;strembo
+bocenago;tre ville
+bondone;storo
+bondone;ledro
+borgo chiese;castel condino
+borgo chiese;ledro
+borgo chiese;pieve di bono-prezzo
+borgo chiese;storo
+borgo chiese;valdaone
+borgo d'anaunia;novella
+borgo d'anaunia;ronzone
+borgo d'anaunia;sarnonico
+borgo lares;bleggio superiore
+borgo lares;ledro
+borgo lares;sella giudicarie
+borgo lares;tione di trento
+borgo lares;tre ville
+borgo valsugana;castelnuovo
+borgo valsugana;levico terme
+borgo valsugana;novaledo
+borgo valsugana;roncegno terme
+borgo valsugana;ronchi valsugana
+borgo valsugana;telve
+borgo valsugana;telve di sopra
+borgo valsugana;torcegno
+brentonico;ala
+brentonico;avio
+brentonico;mori
+brentonico;nago-torbole
+bresimo;caldes
+bresimo;cis
+bresimo;livo
+bresimo;malé
+bresimo;rabbi
+bresimo;rumo
+caderzone terme;bocenago
+caderzone terme;carisolo
+caderzone terme;giustino
+caderzone terme;massimeno
+caderzone terme;pinzolo
+caderzone terme;spiazzo
+caderzone terme;strembo
+calceranica al lago;caldonazzo
+calceranica al lago;pergine valsugana
+calceranica al lago;altopiano della vigolana
+caldes;bresimo
+caldes;cavizzana
+caldes;cis
+caldes;cles
+caldes;malé
+caldes;terzolas
+caldonazzo;altopiano della vigolana
+caldonazzo;calceranica al lago
+caldonazzo;folgaria
+caldonazzo;lavarone
+caldonazzo;levico terme
+caldonazzo;luserna
+caldonazzo;pergine valsugana
+caldonazzo;tenna
+calliano;besenello
+calliano;folgaria
+calliano;nomi
+calliano;rovereto
+calliano;volano
+campitello di fassa;canazei
+campitello di fassa;mazzin
+campodenno;denno
+campodenno;spormaggiore
+campodenno;sporminore
+campodenno;ton
+campodenno;ville d'anaunia
+campodenno;contà
+canal san bovo;castello tesino
+canal san bovo;cinte tesino
+canal san bovo;imer
+canal san bovo;mezzano
+canal san bovo;pieve tesino
+canal san bovo;predazzo
+canal san bovo;primiero san martino di castrozza
+canal san bovo;ziano di fiemme
+canazei;campitello di fassa
+canazei;mazzin
+canazei;san giovanni di fassa
+capriana;altavalle
+capriana;castello-molina di fiemme
+capriana;sover
+capriana;valfloriana
+carisolo;caderzone terme
+carisolo;giustino
+carisolo;ossana
+carisolo;pinzolo
+carisolo;vermiglio
+carzano;castelnuovo
+carzano;scurelle
+carzano;telve
+castel condino;borgo chiese
+castel condino;pieve di bono-prezzo
+castel condino;valdaone
+castel ivano;bieno
+castel ivano;castelnuovo
+castel ivano;ospedaletto
+castel ivano;pieve tesino
+castel ivano;samone
+castel ivano;scurelle
+castello tesino;canal san bovo
+castello tesino;cinte tesino
+castello tesino;grigno
+castello tesino;pieve tesino
+castello tesino;scurelle
+castello-molina di fiemme;capriana
+castello-molina di fiemme;cavalese
+castello-molina di fiemme;pieve tesino
+castello-molina di fiemme;telve
+castello-molina di fiemme;valfloriana
+castello-molina di fiemme;ville di fiemme
+castelnuovo;borgo valsugana
+castelnuovo;carzano
+castelnuovo;scurelle
+castelnuovo;telve
+cavalese;castello-molina di fiemme
+cavalese;pieve tesino
+cavalese;tesero
+cavalese;ville di fiemme
+cavareno;amblar-don
+cavareno;romeno
+cavareno;ruffré-mendola
+cavareno;sarnonico
+cavedago;andalo
+cavedago;fai della paganella
+cavedago;molveno
+cavedago;spormaggiore
+cavedine;cimone
+cavedine;drena
+cavedine;dro
+cavedine;madruzzo
+cavedine;trento
+cavedine;villa lagarina
+cavizzana;caldes
+cavizzana;cles
+cembra lisignago;altavalle
+cembra lisignago;giovo
+cembra lisignago;lona-lases
+cembra lisignago;segonzano
+cimone;aldeno
+cimone;cavedine
+cimone;garniga terme
+cimone;pomarolo
+cimone;trento
+cimone;villa lagarina
+cinte tesino;canal san bovo
+cinte tesino;castello tesino
+cinte tesino;grigno
+cinte tesino;ospedaletto
+cinte tesino;pieve tesino
+cinte tesino;scurelle
+cis;bresimo
+cis;caldes
+cis;cles
+cis;livo
+civezzano;fornace
+civezzano;pergine valsugana
+civezzano;trento
+cles;novella
+cles;caldes
+cles;cavizzana
+cles;cis
+cles;croviana
+cles;dimaro folgarida
+cles;livo
+cles;malé
+cles;sanzeno
+cles;terzolas
+cles;ville d'anaunia
+comano terme;arco
+comano terme;bleggio superiore
+comano terme;bocenago
+comano terme;dro
+comano terme;fiavé
+comano terme;giustino
+comano terme;madruzzo
+comano terme;massimeno
+comano terme;san lorenzo dorsino
+comano terme;stenico
+comano terme;tenno
+comano terme;tione di trento
+comano terme;tre ville
+commezzadura;dimaro folgarida
+commezzadura;malé
+commezzadura;mezzana
+commezzadura;pinzolo
+commezzadura;rabbi
+contà;denno
+contà;ville d'anaunia
+croviana;cles
+croviana;malé
+croviana;dimaro folgarida
+dambel;novella
+dambel;romeno
+dambel;sanzeno
+dambel;sarnonico
+denno;campodenno
+denno;contà
+denno;predaia
+denno;ton
+denno;ville d'anaunia
+dimaro folgarida;cles
+dimaro folgarida;commezzadura
+dimaro folgarida;croviana
+dimaro folgarida;malé
+dimaro folgarida;pinzolo
+dimaro folgarida;ville d'anaunia
+drena;arco
+drena;cavedine
+drena;dro
+drena;villa lagarina
+dro;arco
+dro;cavedine
+dro;drena
+dro;madruzzo
+dro;comano terme
+fai della paganella;andalo
+fai della paganella;cavedago
+fai della paganella;mezzolombardo
+fai della paganella;spormaggiore
+fai della paganella;terre d'adige
+fai della paganella;vallelaghi
+fiavé;comano terme
+fiavé;bleggio superiore
+fiavé;ledro
+fiavé;tenno
+fierozzo;frassilongo
+fierozzo;palù del fersina
+fierozzo;roncegno terme
+fierozzo;sant'orsola terme
+fierozzo;torcegno
+folgaria;altopiano della vigolana
+folgaria;besenello
+folgaria;caldonazzo
+folgaria;calliano
+folgaria;lavarone
+folgaria;rovereto
+folgaria;terragnolo
+fornace;baselga di piné
+fornace;civezzano
+fornace;lona-lases
+fornace;pergine valsugana
+frassilongo;fierozzo
+frassilongo;levico terme
+frassilongo;novaledo
+frassilongo;pergine valsugana
+frassilongo;roncegno terme
+frassilongo;sant'orsola terme
+frassilongo;vignola-falesina
+garniga terme;aldeno
+garniga terme;cimone
+garniga terme;trento
+giovo;cembra lisignago
+giovo;lavis
+giovo;mezzocorona
+giovo;san michele all'adige
+giovo;trento
+giustino;comano terme
+giustino;caderzone terme
+giustino;carisolo
+giustino;massimeno
+giustino;pinzolo
+giustino;spiazzo
+giustino;stenico
+giustino;strembo
+giustino;vermiglio
+grigno;castello tesino
+grigno;cinte tesino
+grigno;ospedaletto
+imer;canal san bovo
+imer;mezzano
+imer;primiero san martino di castrozza
+isera;mori
+isera;nogaredo
+isera;ronzo-chienis
+isera;rovereto
+isera;villa lagarina
+lavarone;caldonazzo
+lavarone;folgaria
+lavarone;luserna
+lavis;giovo
+lavis;san michele all'adige
+lavis;trento
+lavis;terre d'adige
+lavis;vallelaghi
+ledro;bleggio superiore
+ledro;bondone
+ledro;borgo chiese
+ledro;borgo lares
+ledro;fiavé
+ledro;nago-torbole
+ledro;pieve di bono-prezzo
+ledro;riva del garda
+ledro;storo
+ledro;tenno
+ledro;tione di trento
+levico terme;borgo valsugana
+levico terme;caldonazzo
+levico terme;frassilongo
+levico terme;luserna
+levico terme;novaledo
+levico terme;pergine valsugana
+levico terme;tenna
+levico terme;vignola-falesina
+livo;bresimo
+livo;cis
+livo;cles
+livo;novella
+livo;rumo
+lona-lases;baselga di piné
+lona-lases;bedollo
+lona-lases;cembra lisignago
+lona-lases;fornace
+lona-lases;segonzano
+lona-lases;sover
+lona-lases;valfloriana
+luserna;caldonazzo
+luserna;lavarone
+luserna;levico terme
+madruzzo;cavedine
+madruzzo;comano terme
+madruzzo;dro
+madruzzo;san lorenzo dorsino
+madruzzo;trento
+madruzzo;vallelaghi
+malé;bresimo
+malé;caldes
+malé;cles
+malé;commezzadura
+malé;croviana
+malé;dimaro folgarida
+malé;rabbi
+malé;terzolas
+massimeno;bocenago
+massimeno;caderzone terme
+massimeno;comano terme
+massimeno;giustino
+massimeno;pelugo
+massimeno;spiazzo
+massimeno;strembo
+mazzin;canazei
+mazzin;campitello di fassa
+mazzin;san giovanni di fassa
+mezzana;commezzadura
+mezzana;pellizzano
+mezzana;pinzolo
+mezzana;rabbi
+mezzano;canal san bovo
+mezzano;imer
+mezzano;primiero san martino di castrozza
+mezzocorona;giovo
+mezzocorona;mezzolombardo
+mezzocorona;roveré della luna
+mezzocorona;san michele all'adige
+mezzocorona;ton
+mezzolombardo;fai della paganella
+mezzolombardo;mezzocorona
+mezzolombardo;san michele all'adige
+mezzolombardo;spormaggiore
+mezzolombardo;terre d'adige
+mezzolombardo;ton
+moena;predazzo
+moena;primiero san martino di castrozza
+moena;san giovanni di fassa
+moena;soraga di fassa
+molveno;andalo
+molveno;cavedago
+molveno;san lorenzo dorsino
+molveno;spormaggiore
+molveno;tre ville
+molveno;vallelaghi
+molveno;ville d'anaunia
+mori;ala
+mori;arco
+mori;brentonico
+mori;isera
+mori;nago-torbole
+mori;ronzo-chienis
+mori;rovereto
+nago-torbole;arco
+nago-torbole;brentonico
+nago-torbole;ledro
+nago-torbole;mori
+nago-torbole;riva del garda
+nogaredo;isera
+nogaredo;rovereto
+nogaredo;villa lagarina
+nomi;aldeno
+nomi;besenello
+nomi;calliano
+nomi;pomarolo
+nomi;volano
+novaledo;borgo valsugana
+novaledo;frassilongo
+novaledo;levico terme
+novaledo;pergine valsugana
+novaledo;roncegno terme
+novella;borgo d'anaunia
+novella;dambel
+novella;sarnonico
+novella;cles
+novella;livo
+novella;sanzeno
+ospedaletto;cinte tesino
+ospedaletto;grigno
+ospedaletto;pieve tesino
+ossana;carisolo
+ossana;peio
+ossana;pellizzano
+ossana;pinzolo
+ossana;vermiglio
+palù del fersina;baselga di piné
+palù del fersina;bedollo
+palù del fersina;fierozzo
+palù del fersina;sant'orsola terme
+palù del fersina;telve
+palù del fersina;telve di sopra
+palù del fersina;torcegno
+panchià;pieve tesino
+panchià;predazzo
+panchià;tesero
+panchià;ziano di fiemme
+peio;ossana
+peio;pellizzano
+peio;rabbi
+peio;vermiglio
+pellizzano;mezzana
+pellizzano;ossana
+pellizzano;peio
+pellizzano;pinzolo
+pellizzano;rabbi
+pelugo;massimeno
+pelugo;porte di rendena
+pelugo;spiazzo
+pelugo;strembo
+pelugo;tre ville
+pelugo;valdaone
+pergine valsugana;altopiano della vigolana
+pergine valsugana;baselga di piné
+pergine valsugana;calceranica al lago
+pergine valsugana;caldonazzo
+pergine valsugana;civezzano
+pergine valsugana;fornace
+pergine valsugana;frassilongo
+pergine valsugana;levico terme
+pergine valsugana;novaledo
+pergine valsugana;sant'orsola terme
+pergine valsugana;tenna
+pergine valsugana;trento
+pergine valsugana;vignola-falesina
+pieve di bono-prezzo;borgo chiese
+pieve di bono-prezzo;castel condino
+pieve di bono-prezzo;ledro
+pieve di bono-prezzo;sella giudicarie
+pieve di bono-prezzo;valdaone
+pieve tesino;bieno
+pieve tesino;canal san bovo
+pieve tesino;castello-molina di fiemme
+pieve tesino;castello tesino
+pieve tesino;cavalese
+pieve tesino;cinte tesino
+pieve tesino;ospedaletto
+pieve tesino;panchià
+pieve tesino;scurelle
+pieve tesino;telve
+pieve tesino;tesero
+pieve tesino;ziano di fiemme
+pinzolo;caderzone terme
+pinzolo;carisolo
+pinzolo;commezzadura
+pinzolo;dimaro folgarida
+pinzolo;giustino
+pinzolo;mezzana
+pinzolo;ossana
+pinzolo;pellizzano
+pinzolo;stenico
+pinzolo;tre ville
+pomarolo;aldeno
+pomarolo;cimone
+pomarolo;nomi
+pomarolo;rovereto
+pomarolo;villa lagarina
+pomarolo;volano
+porte di rendena;pelugo
+porte di rendena;sella giudicarie
+porte di rendena;tione di trento
+porte di rendena;tre ville
+porte di rendena;valdaone
+predaia;denno
+predaia;amblar-don
+predaia;romeno
+predaia;roveré della luna
+predaia;sanzeno
+predaia;sfruz
+predaia;ville d'anaunia
+predaia;ton
+predazzo;canal san bovo
+predazzo;moena
+predazzo;panchià
+predazzo;primiero san martino di castrozza
+predazzo;tesero
+predazzo;ziano di fiemme
+primiero san martino di castrozza;canal san bovo
+primiero san martino di castrozza;imer
+primiero san martino di castrozza;mezzano
+primiero san martino di castrozza;moena
+primiero san martino di castrozza;predazzo
+primiero san martino di castrozza;sagron mis
+rabbi;bresimo
+rabbi;commezzadura
+rabbi;malé
+rabbi;mezzana
+rabbi;peio
+rabbi;pellizzano
+riva del garda;arco
+riva del garda;ledro
+riva del garda;nago-torbole
+riva del garda;tenno
+romeno;amblar-don
+romeno;cavareno
+romeno;dambel
+romeno;predaia
+romeno;sanzeno
+romeno;sarnonico
+roncegno terme;borgo valsugana
+roncegno terme;fierozzo
+roncegno terme;frassilongo
+roncegno terme;novaledo
+roncegno terme;ronchi valsugana
+roncegno terme;torcegno
+ronchi valsugana;borgo valsugana
+ronchi valsugana;roncegno terme
+ronchi valsugana;torcegno
+ronzo-chienis;arco
+ronzo-chienis;isera
+ronzo-chienis;mori
+ronzo-chienis;villa lagarina
+ronzone;borgo d'anaunia
+ronzone;ruffré-mendola
+ronzone;sarnonico
+roveré della luna;mezzocorona
+roveré della luna;predaia
+roveré della luna;ton
+rovereto;ala
+rovereto;calliano
+rovereto;folgaria
+rovereto;isera
+rovereto;mori
+rovereto;nogaredo
+rovereto;pomarolo
+rovereto;terragnolo
+rovereto;trambileno
+rovereto;vallarsa
+rovereto;villa lagarina
+rovereto;volano
+ruffré-mendola;cavareno
+ruffré-mendola;sarnonico
+ruffré-mendola;ronzone
+rumo;bresimo
+rumo;novella
+rumo;livo
+sagron mis;primiero san martino di castrozza
+samone;""
+san giovanni di fassa;canazei
+san giovanni di fassa;mazzin
+san giovanni di fassa;moena
+san giovanni di fassa;soraga di fassa
+san lorenzo dorsino;andalo
+san lorenzo dorsino;comano terme
+san lorenzo dorsino;madruzzo
+san lorenzo dorsino;molveno
+san lorenzo dorsino;stenico
+san lorenzo dorsino;tre ville
+san lorenzo dorsino;vallelaghi
+san michele all'adige;giovo
+san michele all'adige;lavis
+san michele all'adige;mezzocorona
+san michele all'adige;mezzolombardo
+san michele all'adige;terre d'adige
+sant'orsola terme;baselga di piné
+sant'orsola terme;bedollo
+sant'orsola terme;fierozzo
+sant'orsola terme;frassilongo
+sant'orsola terme;palù del fersina
+sant'orsola terme;pergine valsugana
+sanzeno;cles
+sanzeno;dambel
+sanzeno;predaia
+sanzeno;novella
+sanzeno;romeno
+sanzeno;ville d'anaunia
+sarnonico;borgo d'anaunia
+sarnonico;cavareno
+sarnonico;dambel
+sarnonico;novella
+sarnonico;romeno
+sarnonico;ronzone
+sarnonico;ruffré-mendola
+scurelle;bieno
+scurelle;carzano
+scurelle;castello tesino
+scurelle;castelnuovo
+scurelle;cinte tesino
+scurelle;pieve tesino
+scurelle;telve
+segonzano;altavalle
+segonzano;baselga di piné
+segonzano;bedollo
+segonzano;cembra lisignago
+segonzano;lona-lases
+segonzano;sover
+sella giudicarie;borgo lares
+sella giudicarie;pieve di bono-prezzo
+sella giudicarie;porte di rendena
+sella giudicarie;tione di trento
+sella giudicarie;valdaone
+sfruz;amblar-don
+sfruz;predaia
+soraga di fassa;moena
+soraga di fassa;san giovanni di fassa
+sover;altavalle
+sover;bedollo
+sover;capriana
+sover;lona-lases
+sover;segonzano
+sover;valfloriana
+spiazzo;bocenago
+spiazzo;caderzone terme
+spiazzo;giustino
+spiazzo;massimeno
+spiazzo;pelugo
+spiazzo;strembo
+spiazzo;tre ville
+spiazzo;valdaone
+spormaggiore;campodenno
+spormaggiore;cavedago
+spormaggiore;fai della paganella
+spormaggiore;mezzolombardo
+spormaggiore;molveno
+spormaggiore;sporminore
+spormaggiore;ton
+spormaggiore;ville d'anaunia
+sporminore;campodenno
+sporminore;spormaggiore
+sporminore;ton
+stenico;comano terme
+stenico;bocenago
+stenico;giustino
+stenico;pinzolo
+stenico;san lorenzo dorsino
+stenico;tre ville
+storo;bondone
+storo;borgo chiese
+storo;ledro
+strembo;bocenago
+strembo;caderzone terme
+strembo;giustino
+strembo;massimeno
+strembo;spiazzo
+strembo;valdaone
+strembo;vermiglio
+telve;baselga di piné
+telve;borgo valsugana
+telve;carzano
+telve;castello-molina di fiemme
+telve;castelnuovo
+telve;palù del fersina
+telve;pieve tesino
+telve;scurelle
+telve;telve di sopra
+telve;valfloriana
+telve di sopra;borgo valsugana
+telve di sopra;palù del fersina
+telve di sopra;telve
+telve di sopra;torcegno
+tenna;caldonazzo
+tenna;levico terme
+tenna;pergine valsugana
+tenno;arco
+tenno;ledro
+tenno;fiavé
+tenno;comano terme
+tenno;riva del garda
+terragnolo;folgaria
+terragnolo;rovereto
+terragnolo;trambileno
+terre d'adige;andalo
+terre d'adige;fai della paganella
+terre d'adige;lavis
+terre d'adige;mezzolombardo
+terre d'adige;san michele all'adige
+terre d'adige;vallelaghi
+terzolas;caldes
+terzolas;cles
+terzolas;malé
+tesero;cavalese
+tesero;panchià
+tesero;pieve tesino
+tesero;predazzo
+tesero;ville di fiemme
+tione di trento;comano terme
+tione di trento;bleggio superiore
+tione di trento;borgo lares
+tione di trento;ledro
+tione di trento;pieve di bono-prezzo
+tione di trento;porte di rendena
+tione di trento;sella giudicarie
+tione di trento;tre ville
+ton;campodenno
+ton;denno
+ton;mezzocorona
+ton;mezzolombardo
+ton;predaia
+ton;roveré della luna
+ton;spormaggiore
+ton;sporminore
+torcegno;borgo valsugana
+torcegno;fierozzo
+torcegno;palù del fersina
+torcegno;roncegno terme
+torcegno;ronchi valsugana
+torcegno;telve di sopra
+trambileno;rovereto
+trambileno;terragnolo
+trambileno;vallarsa
+tre ville;bocenago
+tre ville;borgo lares
+tre ville;comano terme
+tre ville;dimaro folgarida
+tre ville;molveno
+tre ville;pelugo
+tre ville;pinzolo
+tre ville;porte di rendena
+tre ville;san lorenzo dorsino
+tre ville;spiazzo
+tre ville;stenico
+tre ville;tione di trento
+tre ville;ville d'anaunia
+trento;albiano
+trento;aldeno
+trento;altopiano della vigolana
+trento;besenello
+trento;cavedine
+trento;cimone
+trento;civezzano
+trento;garniga terme
+trento;giovo
+trento;lavis
+trento;madruzzo
+trento;pergine valsugana
+trento;vallelaghi
+trento;villa lagarina
+valdaone;borgo chiese
+valdaone;castel condino
+valdaone;massimeno
+valdaone;pelugo
+valdaone;pieve di bono-prezzo
+valdaone;porte di rendena
+valdaone;sella giudicarie
+valdaone;spiazzo
+valdaone;strembo
+valfloriana;baselga di piné
+valfloriana;capriana
+valfloriana;castello-molina di fiemme
+valfloriana;lona-lases
+valfloriana;sover
+valfloriana;telve
+vallarsa;ala
+vallarsa;rovereto
+vallarsa;trambileno
+vallelaghi;andalo
+vallelaghi;fai della paganella
+vallelaghi;lavis
+vallelaghi;madruzzo
+vallelaghi;molveno
+vallelaghi;san lorenzo dorsino
+vallelaghi;terre d'adige
+vallelaghi;trento
+vermiglio;carisolo
+vermiglio;giustino
+vermiglio;ossana
+vermiglio;peio
+vermiglio;spiazzo
+vermiglio;strembo
+vignola-falesina;frassilongo
+vignola-falesina;levico terme
+vignola-falesina;pergine valsugana
+villa lagarina;arco
+villa lagarina;cavedine
+villa lagarina;cimone
+villa lagarina;drena
+villa lagarina;isera
+villa lagarina;nogaredo
+villa lagarina;pomarolo
+villa lagarina;ronzo-chienis
+villa lagarina;rovereto
+villa lagarina;trento
+ville d'anaunia;campodenno
+ville d'anaunia;cles
+ville d'anaunia;contà
+ville d'anaunia;denno
+ville d'anaunia;dimaro folgarida
+ville d'anaunia;molveno
+ville d'anaunia;predaia
+ville d'anaunia;tre ville
+ville d'anaunia;sanzeno
+ville d'anaunia;spormaggiore
+ville di fiemme;castello-molina di fiemme
+ville di fiemme;cavalese
+ville di fiemme;tesero
+volano;calliano
+volano;nomi
+volano;pomarolo
+volano;rovereto
+ziano di fiemme;canal san bovo
+ziano di fiemme;panchià
+ziano di fiemme;pieve tesino
+ziano di fiemme;predazzo

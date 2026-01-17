@@ -1,0 +1,834 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ala> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/avio>, <http://knowdive.disi.unitn.it/etype#Municipality/brentonico>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mori>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallarsa> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/albiano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago>, <http://knowdive.disi.unitn.it/etype#Municipality/civezzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fornace>, <http://knowdive.disi.unitn.it/etype#Municipality/giovo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>, <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/aldeno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/besenello>, <http://knowdive.disi.unitn.it/etype#Municipality/cimone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/garniga%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/nomi>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pomarolo>, <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/altavalle> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/capriana>, <http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/segonzano>, <http://knowdive.disi.unitn.it/etype#Municipality/sover> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/besenello>, <http://knowdive.disi.unitn.it/etype#Municipality/calceranica%20al%20lago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/folgaria>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/amblar-don> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavareno>, <http://knowdive.disi.unitn.it/etype#Municipality/predaia>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/romeno>, <http://knowdive.disi.unitn.it/etype#Municipality/sfruz> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/andalo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavedago>, <http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/molveno>, <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige>, <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/arco> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/drena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dro>, <http://knowdive.disi.unitn.it/etype#Municipality/mori>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole>, <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronzo-chienis>, <http://knowdive.disi.unitn.it/etype#Municipality/tenno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/avio> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala>, <http://knowdive.disi.unitn.it/etype#Municipality/brentonico> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bedollo>, <http://knowdive.disi.unitn.it/etype#Municipality/fornace>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>, <http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/segonzano>, <http://knowdive.disi.unitn.it/etype#Municipality/telve>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valfloriana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bedollo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>, <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina>, <http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/segonzano>, <http://knowdive.disi.unitn.it/etype#Municipality/sover> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/besenello> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/aldeno>, <http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/calliano>, <http://knowdive.disi.unitn.it/etype#Municipality/folgaria>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/nomi>, <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bieno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/scurelle> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20lares>, <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fiavé>, <http://knowdive.disi.unitn.it/etype#Municipality/ledro>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bocenago> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>, <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/stenico>, <http://knowdive.disi.unitn.it/etype#Municipality/strembo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bondone> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/storo>, <http://knowdive.disi.unitn.it/etype#Municipality/ledro> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castel%20condino>, <http://knowdive.disi.unitn.it/etype#Municipality/ledro>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo>, <http://knowdive.disi.unitn.it/etype#Municipality/storo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20d'anaunia> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/novella>, <http://knowdive.disi.unitn.it/etype#Municipality/ronzone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sarnonico> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20lares> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore>, <http://knowdive.disi.unitn.it/etype#Municipality/ledro>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie>, <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo>, <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/novaledo>, <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronchi%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/telve>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve%20di%20sopra>, <http://knowdive.disi.unitn.it/etype#Municipality/torcegno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/brentonico> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala>, <http://knowdive.disi.unitn.it/etype#Municipality/avio>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mori>, <http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bresimo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldes>, <http://knowdive.disi.unitn.it/etype#Municipality/cis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/livo>, <http://knowdive.disi.unitn.it/etype#Municipality/malé>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rabbi>, <http://knowdive.disi.unitn.it/etype#Municipality/rumo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bocenago>, <http://knowdive.disi.unitn.it/etype#Municipality/carisolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/giustino>, <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>, <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/strembo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/calceranica%20al%20lago> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/caldes> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bresimo>, <http://knowdive.disi.unitn.it/etype#Municipality/cavizzana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cis>, <http://knowdive.disi.unitn.it/etype#Municipality/cles>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/malé>, <http://knowdive.disi.unitn.it/etype#Municipality/terzolas> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana>, <http://knowdive.disi.unitn.it/etype#Municipality/calceranica%20al%20lago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/folgaria>, <http://knowdive.disi.unitn.it/etype#Municipality/lavarone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/luserna>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/tenna> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/calliano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/besenello>, <http://knowdive.disi.unitn.it/etype#Municipality/folgaria>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/nomi>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/volano> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/campitello%20di%20fassa> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canazei>, <http://knowdive.disi.unitn.it/etype#Municipality/mazzin> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/campodenno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/denno>, <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sporminore>, <http://knowdive.disi.unitn.it/etype#Municipality/ton>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia>, <http://knowdive.disi.unitn.it/etype#Municipality/contà> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/imer>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/predazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ziano%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/canazei> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campitello%20di%20fassa>, <http://knowdive.disi.unitn.it/etype#Municipality/mazzin>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/capriana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altavalle>, <http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sover>, <http://knowdive.disi.unitn.it/etype#Municipality/valfloriana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/carisolo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/giustino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ossana>, <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/carzano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo>, <http://knowdive.disi.unitn.it/etype#Municipality/scurelle>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castel%20condino> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese>, <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castel%20ivano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bieno>, <http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ospedaletto>, <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/samone>, <http://knowdive.disi.unitn.it/etype#Municipality/scurelle> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castello%20tesino> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>, <http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/grigno>, <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/scurelle> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/capriana>, <http://knowdive.disi.unitn.it/etype#Municipality/cavalese>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/telve>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valfloriana>, <http://knowdive.disi.unitn.it/etype#Municipality/ville%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/carzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/scurelle>, <http://knowdive.disi.unitn.it/etype#Municipality/telve> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavalese> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/tesero>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavareno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/amblar-don>, <http://knowdive.disi.unitn.it/etype#Municipality/romeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ruffré-mendola>, <http://knowdive.disi.unitn.it/etype#Municipality/sarnonico> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavedago> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/andalo>, <http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/molveno>, <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavedine> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cimone>, <http://knowdive.disi.unitn.it/etype#Municipality/drena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dro>, <http://knowdive.disi.unitn.it/etype#Municipality/madruzzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento>, <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavizzana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldes>, <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altavalle>, <http://knowdive.disi.unitn.it/etype#Municipality/giovo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>, <http://knowdive.disi.unitn.it/etype#Municipality/segonzano> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cimone> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/aldeno>, <http://knowdive.disi.unitn.it/etype#Municipality/cavedine>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/garniga%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/pomarolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento>, <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>, <http://knowdive.disi.unitn.it/etype#Municipality/castello%20tesino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/grigno>, <http://knowdive.disi.unitn.it/etype#Municipality/ospedaletto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/scurelle> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cis> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bresimo>, <http://knowdive.disi.unitn.it/etype#Municipality/caldes>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles>, <http://knowdive.disi.unitn.it/etype#Municipality/livo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/civezzano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/fornace>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cles> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/novella>, <http://knowdive.disi.unitn.it/etype#Municipality/caldes>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavizzana>, <http://knowdive.disi.unitn.it/etype#Municipality/cis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/croviana>, <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/livo>, <http://knowdive.disi.unitn.it/etype#Municipality/malé>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sanzeno>, <http://knowdive.disi.unitn.it/etype#Municipality/terzolas>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/bocenago>, <http://knowdive.disi.unitn.it/etype#Municipality/dro>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fiavé>, <http://knowdive.disi.unitn.it/etype#Municipality/giustino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/madruzzo>, <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino>, <http://knowdive.disi.unitn.it/etype#Municipality/stenico>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tenno>, <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/commezzadura> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida>, <http://knowdive.disi.unitn.it/etype#Municipality/malé>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzana>, <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rabbi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/contà> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/denno>, <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/croviana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles>, <http://knowdive.disi.unitn.it/etype#Municipality/malé>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/dambel> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/novella>, <http://knowdive.disi.unitn.it/etype#Municipality/romeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sanzeno>, <http://knowdive.disi.unitn.it/etype#Municipality/sarnonico> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/denno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campodenno>, <http://knowdive.disi.unitn.it/etype#Municipality/contà>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia>, <http://knowdive.disi.unitn.it/etype#Municipality/ton>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles>, <http://knowdive.disi.unitn.it/etype#Municipality/commezzadura>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/croviana>, <http://knowdive.disi.unitn.it/etype#Municipality/malé>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>, <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/drena> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/cavedine>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dro>, <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/dro> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/cavedine>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/drena>, <http://knowdive.disi.unitn.it/etype#Municipality/madruzzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/andalo>, <http://knowdive.disi.unitn.it/etype#Municipality/cavedago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo>, <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige>, <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fiavé> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ledro>, <http://knowdive.disi.unitn.it/etype#Municipality/tenno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fierozzo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/frassilongo>, <http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/torcegno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/folgaria> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana>, <http://knowdive.disi.unitn.it/etype#Municipality/besenello>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/calliano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lavarone>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/terragnolo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fornace> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>, <http://knowdive.disi.unitn.it/etype#Municipality/civezzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/frassilongo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/fierozzo>, <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/novaledo>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vignola-falesina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/garniga%20terme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/aldeno>, <http://knowdive.disi.unitn.it/etype#Municipality/cimone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/giovo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago>, <http://knowdive.disi.unitn.it/etype#Municipality/lavis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona>, <http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/giustino> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/carisolo>, <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>, <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/stenico>, <http://knowdive.disi.unitn.it/etype#Municipality/strembo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/grigno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ospedaletto> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/imer> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/isera> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mori>, <http://knowdive.disi.unitn.it/etype#Municipality/nogaredo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronzo-chienis>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/lavarone> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/folgaria>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/luserna> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/lavis> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/giovo>, <http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento>, <http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ledro> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore>, <http://knowdive.disi.unitn.it/etype#Municipality/bondone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese>, <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20lares>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fiavé>, <http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo>, <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/storo>, <http://knowdive.disi.unitn.it/etype#Municipality/tenno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/frassilongo>, <http://knowdive.disi.unitn.it/etype#Municipality/luserna>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/novaledo>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tenna>, <http://knowdive.disi.unitn.it/etype#Municipality/vignola-falesina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/livo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bresimo>, <http://knowdive.disi.unitn.it/etype#Municipality/cis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles>, <http://knowdive.disi.unitn.it/etype#Municipality/novella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rumo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/lona-lases> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>, <http://knowdive.disi.unitn.it/etype#Municipality/bedollo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago>, <http://knowdive.disi.unitn.it/etype#Municipality/fornace>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/segonzano>, <http://knowdive.disi.unitn.it/etype#Municipality/sover>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valfloriana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/luserna> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/lavarone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/madruzzo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavedine>, <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dro>, <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento>, <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/malé> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bresimo>, <http://knowdive.disi.unitn.it/etype#Municipality/caldes>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles>, <http://knowdive.disi.unitn.it/etype#Municipality/commezzadura>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/croviana>, <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rabbi>, <http://knowdive.disi.unitn.it/etype#Municipality/terzolas> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/massimeno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bocenago>, <http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/giustino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pelugo>, <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/strembo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mazzin> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canazei>, <http://knowdive.disi.unitn.it/etype#Municipality/campitello%20di%20fassa>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/commezzadura>, <http://knowdive.disi.unitn.it/etype#Municipality/pellizzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>, <http://knowdive.disi.unitn.it/etype#Municipality/rabbi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>, <http://knowdive.disi.unitn.it/etype#Municipality/imer>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/giovo>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/roveré%20della%20luna>, <http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ton> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige>, <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige>, <http://knowdive.disi.unitn.it/etype#Municipality/ton> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/moena> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa>, <http://knowdive.disi.unitn.it/etype#Municipality/soraga%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/molveno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/andalo>, <http://knowdive.disi.unitn.it/etype#Municipality/cavedago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino>, <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville>, <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mori> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala>, <http://knowdive.disi.unitn.it/etype#Municipality/arco>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/brentonico>, <http://knowdive.disi.unitn.it/etype#Municipality/isera>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole>, <http://knowdive.disi.unitn.it/etype#Municipality/ronzo-chienis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/brentonico>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ledro>, <http://knowdive.disi.unitn.it/etype#Municipality/mori>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/nogaredo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/isera>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/nomi> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/aldeno>, <http://knowdive.disi.unitn.it/etype#Municipality/besenello>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/calliano>, <http://knowdive.disi.unitn.it/etype#Municipality/pomarolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/volano> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/novaledo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/frassilongo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/novella> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20d'anaunia>, <http://knowdive.disi.unitn.it/etype#Municipality/dambel>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sarnonico>, <http://knowdive.disi.unitn.it/etype#Municipality/cles>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/livo>, <http://knowdive.disi.unitn.it/etype#Municipality/sanzeno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ospedaletto> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/grigno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ossana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/carisolo>, <http://knowdive.disi.unitn.it/etype#Municipality/peio>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pellizzano>, <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>, <http://knowdive.disi.unitn.it/etype#Municipality/bedollo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fierozzo>, <http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve>, <http://knowdive.disi.unitn.it/etype#Municipality/telve%20di%20sopra>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/torcegno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/panchià> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/predazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tesero>, <http://knowdive.disi.unitn.it/etype#Municipality/ziano%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/peio> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ossana>, <http://knowdive.disi.unitn.it/etype#Municipality/pellizzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rabbi>, <http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pellizzano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzana>, <http://knowdive.disi.unitn.it/etype#Municipality/ossana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/peio>, <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rabbi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pelugo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>, <http://knowdive.disi.unitn.it/etype#Municipality/porte%20di%20rendena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/strembo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville>, <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana>, <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/calceranica%20al%20lago>, <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/civezzano>, <http://knowdive.disi.unitn.it/etype#Municipality/fornace>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/frassilongo>, <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/novaledo>, <http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tenna>, <http://knowdive.disi.unitn.it/etype#Municipality/trento>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vignola-falesina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese>, <http://knowdive.disi.unitn.it/etype#Municipality/castel%20condino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ledro>, <http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bieno>, <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/cavalese>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/ospedaletto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/panchià>, <http://knowdive.disi.unitn.it/etype#Municipality/scurelle>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve>, <http://knowdive.disi.unitn.it/etype#Municipality/tesero>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ziano%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pinzolo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/carisolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/commezzadura>, <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/giustino>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ossana>, <http://knowdive.disi.unitn.it/etype#Municipality/pellizzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/stenico>, <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pomarolo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/aldeno>, <http://knowdive.disi.unitn.it/etype#Municipality/cimone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/nomi>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina>, <http://knowdive.disi.unitn.it/etype#Municipality/volano> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/porte%20di%20rendena> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pelugo>, <http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento>, <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/predaia> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/denno>, <http://knowdive.disi.unitn.it/etype#Municipality/amblar-don>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/romeno>, <http://knowdive.disi.unitn.it/etype#Municipality/roveré%20della%20luna>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sanzeno>, <http://knowdive.disi.unitn.it/etype#Municipality/sfruz>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia>, <http://knowdive.disi.unitn.it/etype#Municipality/ton> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/predazzo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>, <http://knowdive.disi.unitn.it/etype#Municipality/moena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/panchià>, <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tesero>, <http://knowdive.disi.unitn.it/etype#Municipality/ziano%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza>
+  <http://knowdive.disi.unitn.it/etype#has_bordering_municipality> <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/imer>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/moena>, <http://knowdive.disi.unitn.it/etype#Municipality/predazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sagron%20mis> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/rabbi> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bresimo>, <http://knowdive.disi.unitn.it/etype#Municipality/commezzadura>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/malé>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/peio>, <http://knowdive.disi.unitn.it/etype#Municipality/pellizzano> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/ledro>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole>, <http://knowdive.disi.unitn.it/etype#Municipality/tenno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/romeno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/amblar-don>, <http://knowdive.disi.unitn.it/etype#Municipality/cavareno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dambel>, <http://knowdive.disi.unitn.it/etype#Municipality/predaia>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sanzeno>, <http://knowdive.disi.unitn.it/etype#Municipality/sarnonico> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/fierozzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/frassilongo>, <http://knowdive.disi.unitn.it/etype#Municipality/novaledo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronchi%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/torcegno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ronchi%20valsugana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/torcegno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ronzo-chienis> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/isera>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mori>, <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ronzone> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20d'anaunia>, <http://knowdive.disi.unitn.it/etype#Municipality/ruffré-mendola>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sarnonico> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/roveré%20della%20luna> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona>, <http://knowdive.disi.unitn.it/etype#Municipality/predaia>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ton> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/rovereto> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala>, <http://knowdive.disi.unitn.it/etype#Municipality/calliano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/folgaria>, <http://knowdive.disi.unitn.it/etype#Municipality/isera>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mori>, <http://knowdive.disi.unitn.it/etype#Municipality/nogaredo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pomarolo>, <http://knowdive.disi.unitn.it/etype#Municipality/terragnolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trambileno>, <http://knowdive.disi.unitn.it/etype#Municipality/vallarsa>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina>, <http://knowdive.disi.unitn.it/etype#Municipality/volano> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ruffré-mendola> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavareno>, <http://knowdive.disi.unitn.it/etype#Municipality/sarnonico>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronzone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/rumo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bresimo>, <http://knowdive.disi.unitn.it/etype#Municipality/novella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/livo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sagron%20mis> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canazei>, <http://knowdive.disi.unitn.it/etype#Municipality/mazzin>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/moena>, <http://knowdive.disi.unitn.it/etype#Municipality/soraga%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/andalo>, <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/madruzzo>, <http://knowdive.disi.unitn.it/etype#Municipality/molveno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/stenico>, <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/giovo>, <http://knowdive.disi.unitn.it/etype#Municipality/lavis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>, <http://knowdive.disi.unitn.it/etype#Municipality/bedollo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fierozzo>, <http://knowdive.disi.unitn.it/etype#Municipality/frassilongo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sanzeno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles>, <http://knowdive.disi.unitn.it/etype#Municipality/dambel>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia>, <http://knowdive.disi.unitn.it/etype#Municipality/novella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/romeno>, <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sarnonico> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20d'anaunia>, <http://knowdive.disi.unitn.it/etype#Municipality/cavareno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dambel>, <http://knowdive.disi.unitn.it/etype#Municipality/novella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/romeno>, <http://knowdive.disi.unitn.it/etype#Municipality/ronzone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ruffré-mendola> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/scurelle> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bieno>, <http://knowdive.disi.unitn.it/etype#Municipality/carzano>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/segonzano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altavalle>, <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/bedollo>, <http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>, <http://knowdive.disi.unitn.it/etype#Municipality/sover> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20lares>, <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/porte%20di%20rendena>, <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sfruz> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/amblar-don>, <http://knowdive.disi.unitn.it/etype#Municipality/predaia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/soraga%20di%20fassa> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/moena>, <http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sover> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altavalle>, <http://knowdive.disi.unitn.it/etype#Municipality/bedollo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/capriana>, <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/segonzano>, <http://knowdive.disi.unitn.it/etype#Municipality/valfloriana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/spiazzo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bocenago>, <http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/giustino>, <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pelugo>, <http://knowdive.disi.unitn.it/etype#Municipality/strembo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville>, <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campodenno>, <http://knowdive.disi.unitn.it/etype#Municipality/cavedago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/molveno>, <http://knowdive.disi.unitn.it/etype#Municipality/sporminore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ton>, <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sporminore> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campodenno>, <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ton> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/stenico> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/bocenago>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/giustino>, <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino>, <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/storo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bondone>, <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ledro> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/strembo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bocenago>, <http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/giustino>, <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/valdaone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/telve> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>, <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/carzano>, <http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo>, <http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/scurelle>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve%20di%20sopra>, <http://knowdive.disi.unitn.it/etype#Municipality/valfloriana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/telve%20di%20sopra> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve>, <http://knowdive.disi.unitn.it/etype#Municipality/torcegno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tenna> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tenno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/ledro>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/fiavé>, <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/terragnolo> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/folgaria>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trambileno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/andalo>, <http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lavis>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige>, <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/terzolas> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/caldes>, <http://knowdive.disi.unitn.it/etype#Municipality/cles>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/malé> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tesero> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavalese>, <http://knowdive.disi.unitn.it/etype#Municipality/panchià>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/predazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20lares>, <http://knowdive.disi.unitn.it/etype#Municipality/ledro>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo>, <http://knowdive.disi.unitn.it/etype#Municipality/porte%20di%20rendena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie>, <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ton> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campodenno>, <http://knowdive.disi.unitn.it/etype#Municipality/denno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona>, <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia>, <http://knowdive.disi.unitn.it/etype#Municipality/roveré%20della%20luna>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore>, <http://knowdive.disi.unitn.it/etype#Municipality/sporminore> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/torcegno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/fierozzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina>, <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronchi%20valsugana>, <http://knowdive.disi.unitn.it/etype#Municipality/telve%20di%20sopra> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/trambileno> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>, <http://knowdive.disi.unitn.it/etype#Municipality/terragnolo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallarsa> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bocenago>, <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20lares>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme>, <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/molveno>, <http://knowdive.disi.unitn.it/etype#Municipality/pelugo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo>, <http://knowdive.disi.unitn.it/etype#Municipality/porte%20di%20rendena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino>, <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/stenico>, <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/trento> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/albiano>, <http://knowdive.disi.unitn.it/etype#Municipality/aldeno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana>, <http://knowdive.disi.unitn.it/etype#Municipality/besenello>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavedine>, <http://knowdive.disi.unitn.it/etype#Municipality/cimone>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/civezzano>, <http://knowdive.disi.unitn.it/etype#Municipality/garniga%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/giovo>, <http://knowdive.disi.unitn.it/etype#Municipality/lavis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/madruzzo>, <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi>, <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/valdaone> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese>, <http://knowdive.disi.unitn.it/etype#Municipality/castel%20condino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/massimeno>, <http://knowdive.disi.unitn.it/etype#Municipality/pelugo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo>, <http://knowdive.disi.unitn.it/etype#Municipality/porte%20di%20rendena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie>, <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/strembo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/valfloriana> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné>, <http://knowdive.disi.unitn.it/etype#Municipality/capriana>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases>, <http://knowdive.disi.unitn.it/etype#Municipality/sover>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vallarsa> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/trambileno> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/andalo>, <http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/lavis>, <http://knowdive.disi.unitn.it/etype#Municipality/madruzzo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/molveno>, <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige>, <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/carisolo>, <http://knowdive.disi.unitn.it/etype#Municipality/giustino>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/ossana>, <http://knowdive.disi.unitn.it/etype#Municipality/peio>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo>, <http://knowdive.disi.unitn.it/etype#Municipality/strembo> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vignola-falesina> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/frassilongo>, <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco>, <http://knowdive.disi.unitn.it/etype#Municipality/cavedine>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cimone>, <http://knowdive.disi.unitn.it/etype#Municipality/drena>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/isera>, <http://knowdive.disi.unitn.it/etype#Municipality/nogaredo>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pomarolo>, <http://knowdive.disi.unitn.it/etype#Municipality/ronzo-chienis>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto>, <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campodenno>, <http://knowdive.disi.unitn.it/etype#Municipality/cles>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/contà>, <http://knowdive.disi.unitn.it/etype#Municipality/denno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida>, <http://knowdive.disi.unitn.it/etype#Municipality/molveno>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia>, <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/sanzeno>, <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ville%20di%20fiemme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavalese>, <http://knowdive.disi.unitn.it/etype#Municipality/tesero> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/volano> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/calliano>, <http://knowdive.disi.unitn.it/etype#Municipality/nomi>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pomarolo>, <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ziano%20di%20fiemme> <http://knowdive.disi.unitn.it/etype#has_bordering_municipality>
+    <http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo>, <http://knowdive.disi.unitn.it/etype#Municipality/panchià>,
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino>, <http://knowdive.disi.unitn.it/etype#Municipality/predazzo> .

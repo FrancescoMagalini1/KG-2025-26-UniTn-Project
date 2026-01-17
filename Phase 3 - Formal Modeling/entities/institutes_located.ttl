@@ -1,0 +1,815 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/1> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/2> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/3> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/4> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/5> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/6> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/7> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ossana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/8> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/9> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tesero> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/10> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/11> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/12> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/13> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/14> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/15> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/16> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/17> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/18> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/19> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/20> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/21> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/22> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/23> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/24> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/malé> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/25> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/26> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/27> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/28> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/29> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/30> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/31> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/32> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/33> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/34> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/35> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/36> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/37> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/38> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/39> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/40> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ossana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/41> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/volano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/42> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/43> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/44> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/avio> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/45> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/denno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/46> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/malé> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/47> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/48> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/brentonico> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/49> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavalese> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/50> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/51> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/52> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/civezzano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/53> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/54> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/storo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/55> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/56> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/folgaria> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/57> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/58> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/59> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/60> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/lavis> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/61> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/62> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/63> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/64> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mori> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/65> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/66> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/67> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predazzo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/68> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/69> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/70> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/71> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/72> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/73> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castel%20ivano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/74> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/75> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/76> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/77> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/78> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/79> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/80> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/81> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/82> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/83> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/84> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/85> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ledro> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/86> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/87> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/88> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/89> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/90> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/91> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/92> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/93> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/94> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavalese> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/95> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/96> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/97> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/98> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/99> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/100> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/101> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/102> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/103> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/104> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/105> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/106> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/107> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/108> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/109> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/110> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/111> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/112> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/113> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/114> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/115> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/116> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/117> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/118> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/119> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/albiano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/120> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/aldeno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/121> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/andalo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/122> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/123> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/avio> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/124> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/125> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/126> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bondone> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/127> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/128> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/129> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/130> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/brentonico> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/131> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/calceranica%20al%20lago> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/132> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campitello%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/133> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/campodenno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/134> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/135> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/carisolo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/136> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/sanzeno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/137> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/138> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/139> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/140> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavalese> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/141> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavedine> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/142> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/143> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/144> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/145> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/novella> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/146> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/147> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/148> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/149> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/brentonico> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/150> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/valdaone> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/151> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/denno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/152> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/153> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/altavalle> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/154> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/fiavé> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/155> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/156> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/borgo%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/157> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/fornace> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/158> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/159> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/160> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/grigno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/161> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/162> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/lavis> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/163> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/164> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/165> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/storo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/166> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/lona-lases> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/167> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/168> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/169> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/malé> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/170> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/171> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/172> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/173> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavalese> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/174> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/arco> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/175> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cles> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/176> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/177> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/178> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/179> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/moena> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/180> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ledro> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/181> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/182> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/molveno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/183> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/sover> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/184> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/mori> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/185> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/186> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/187> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/nomi> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/188> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ospedaletto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/189> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/190> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/191> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/192> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/dro> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/193> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/194> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/195> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/196> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pinzolo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/197> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/198> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/199> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trambileno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/200> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predazzo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/201> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/lavis> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/202> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/203> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/204> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/205> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/206> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/207> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/208> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronchi%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/209> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/210> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/211> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ronzo-chienis> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/212> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/213> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/214> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/215> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/216> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/217> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/avio> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/218> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/219> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/madruzzo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/220> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/scurelle> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/221> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/222> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/segonzano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/223> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ala> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/224> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/225> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/226> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/227> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/spiazzo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/228> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/229> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/stenico> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/230> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/storo> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/231> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/castel%20ivano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/232> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/233> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/predaia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/234> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/telve> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/235> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tenno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/236> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tesero> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/237> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/grigno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/238> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/239> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/240> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/241> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/torcegno> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/242> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/243> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/244> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/245> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/246> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/247> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/248> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/249> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/250> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/251> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/252> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/253> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/254> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/255> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/256> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/257> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/cavedine> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/258> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/259> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/260> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ton> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/261> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/262> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/263> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/264> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/trento> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/265> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/volano> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/266> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/ziano%20di%20fiemme> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/267> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/268> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/rovereto> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/269> <http://knowdive.disi.unitn.it/etype#has_location>
+    <http://knowdive.disi.unitn.it/etype#Municipality/civezzano> .

@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/francesco/ontologies/2026/0/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/francesco/ontologies/2026/0/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://knowdive.disi.unitn.it/etype#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_bordering_municipality -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_bordering_municipality">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_location -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_location">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_school -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_school">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_statistic -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_statistic">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Grade_Statistics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_students_information -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_students_information">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#Students_Information"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_academic_year -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_academic_year">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Grade_Statistics"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Students_Information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_address -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_address">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_administration_type -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_administration_type">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_admission_rate -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_admission_rate">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Grade_Statistics"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_altitude -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_altitude">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_density -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_density">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_director -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_director">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_educational_coordinator -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_educational_coordinator">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_email -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_email">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_fax -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_fax">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_institute_type -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_institute_type">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_istat_code -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_istat_code">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_latitude">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_link -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_link">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_longitude">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_management_email -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_management_email">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_manager -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_manager">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_miur_code -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_miur_code">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_name -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_name">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_number_of_classes -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_number_of_classes">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Students_Information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_number_of_students -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_number_of_students">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Students_Information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_population -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_population">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_postal_code -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_postal_code">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_province -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_province">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_school_year -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_school_year">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Grade_Statistics"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Students_Information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_secretarys_office_email -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_secretarys_office_email">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_surface -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_surface">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_telephone -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_telephone">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#School"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_website -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_website">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Institute"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Municipality"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#AdministrativeArea -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#AdministrativeArea">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
+        <rdfs:comment>A geographical region, typically under the jurisdiction of a particular government.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#EducationalOrganization -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#EducationalOrganization">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
+        <rdfs:comment>An educational organization.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Grade_Statistics -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Grade_Statistics">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#StructuredValue"/>
+        <rdfs:comment>Information regarding the admission rates for a certain school, during a specific academing year and for a determined school year.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Institute -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Institute">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#EducationalOrganization"/>
+        <rdfs:comment>Institutes (&quot;Istituti comprensivi&quot;) are administrative units that bring together one or more schools in order to ensure educational continuity within the same cycle of education.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Intangible -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Intangible">
+        <rdfs:comment>A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Municipality -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Municipality">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#AdministrativeArea"/>
+        <rdfs:comment>The smallest civil administrative unit in Italy, also called &quot;Comune&quot; in Italian.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Organization -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Organization">
+        <rdfs:comment>An organization such as a school, NGO, corporation, club, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Place -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Place">
+        <rdfs:comment>Entities that have a somewhat fixed, physical extension.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#School -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#School">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#EducationalOrganization"/>
+        <rdfs:comment>A single structure/school building in which teaching activities for a single school level (preschool, elementary, or middle school) take place.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#StructuredValue -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#StructuredValue">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Intangible"/>
+        <rdfs:comment>Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#Students_Information -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Students_Information">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#StructuredValue"/>
+        <rdfs:comment>Information regarding the number of students for a certain school, during a specific academing year and for a determined school year.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#Grade_Statistics"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#Institute"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#Municipality"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#School"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#Students_Information"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

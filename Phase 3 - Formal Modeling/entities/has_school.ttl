@@ -1,0 +1,1021 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/1> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/1>, <http://knowdive.disi.unitn.it/etype#School/2>,
+    <http://knowdive.disi.unitn.it/etype#School/3> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/2> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/4> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/3> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/5>, <http://knowdive.disi.unitn.it/etype#School/6> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/4> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/7>, <http://knowdive.disi.unitn.it/etype#School/8> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/5> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/9>, <http://knowdive.disi.unitn.it/etype#School/10> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/6> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/11> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/7> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/12>, <http://knowdive.disi.unitn.it/etype#School/13> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/8> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/14>, <http://knowdive.disi.unitn.it/etype#School/15> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/9> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/16>, <http://knowdive.disi.unitn.it/etype#School/17>,
+    <http://knowdive.disi.unitn.it/etype#School/18> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/10> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/19>, <http://knowdive.disi.unitn.it/etype#School/20>,
+    <http://knowdive.disi.unitn.it/etype#School/21>, <http://knowdive.disi.unitn.it/etype#School/22> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/11> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/23>, <http://knowdive.disi.unitn.it/etype#School/24> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/12> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/25>, <http://knowdive.disi.unitn.it/etype#School/26>,
+    <http://knowdive.disi.unitn.it/etype#School/27> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/13> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/28> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/14> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/29>, <http://knowdive.disi.unitn.it/etype#School/30> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/15> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/31>, <http://knowdive.disi.unitn.it/etype#School/32> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/16> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/33>, <http://knowdive.disi.unitn.it/etype#School/34> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/17> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/35> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/18> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/36>, <http://knowdive.disi.unitn.it/etype#School/37> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/19> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/38>, <http://knowdive.disi.unitn.it/etype#School/39> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/20> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/40>, <http://knowdive.disi.unitn.it/etype#School/41> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/21> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/42>, <http://knowdive.disi.unitn.it/etype#School/43>,
+    <http://knowdive.disi.unitn.it/etype#School/44> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/22> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/45>, <http://knowdive.disi.unitn.it/etype#School/46>,
+    <http://knowdive.disi.unitn.it/etype#School/47>, <http://knowdive.disi.unitn.it/etype#School/48>,
+    <http://knowdive.disi.unitn.it/etype#School/49>, <http://knowdive.disi.unitn.it/etype#School/50>,
+    <http://knowdive.disi.unitn.it/etype#School/51>, <http://knowdive.disi.unitn.it/etype#School/52>,
+    <http://knowdive.disi.unitn.it/etype#School/53>, <http://knowdive.disi.unitn.it/etype#School/54>,
+    <http://knowdive.disi.unitn.it/etype#School/55>, <http://knowdive.disi.unitn.it/etype#School/56> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/23> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/57>, <http://knowdive.disi.unitn.it/etype#School/58>,
+    <http://knowdive.disi.unitn.it/etype#School/59>, <http://knowdive.disi.unitn.it/etype#School/60>,
+    <http://knowdive.disi.unitn.it/etype#School/61>, <http://knowdive.disi.unitn.it/etype#School/62>,
+    <http://knowdive.disi.unitn.it/etype#School/63>, <http://knowdive.disi.unitn.it/etype#School/64> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/24> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/65>, <http://knowdive.disi.unitn.it/etype#School/66>,
+    <http://knowdive.disi.unitn.it/etype#School/67>, <http://knowdive.disi.unitn.it/etype#School/68>,
+    <http://knowdive.disi.unitn.it/etype#School/69>, <http://knowdive.disi.unitn.it/etype#School/70>,
+    <http://knowdive.disi.unitn.it/etype#School/71>, <http://knowdive.disi.unitn.it/etype#School/72>,
+    <http://knowdive.disi.unitn.it/etype#School/73>, <http://knowdive.disi.unitn.it/etype#School/74>,
+    <http://knowdive.disi.unitn.it/etype#School/75>, <http://knowdive.disi.unitn.it/etype#School/76>,
+    <http://knowdive.disi.unitn.it/etype#School/77> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/25> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/78>, <http://knowdive.disi.unitn.it/etype#School/79>,
+    <http://knowdive.disi.unitn.it/etype#School/80>, <http://knowdive.disi.unitn.it/etype#School/81>,
+    <http://knowdive.disi.unitn.it/etype#School/82>, <http://knowdive.disi.unitn.it/etype#School/83>,
+    <http://knowdive.disi.unitn.it/etype#School/84>, <http://knowdive.disi.unitn.it/etype#School/85>,
+    <http://knowdive.disi.unitn.it/etype#School/86>, <http://knowdive.disi.unitn.it/etype#School/87>,
+    <http://knowdive.disi.unitn.it/etype#School/88>, <http://knowdive.disi.unitn.it/etype#School/89>,
+    <http://knowdive.disi.unitn.it/etype#School/90> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/26> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/91>, <http://knowdive.disi.unitn.it/etype#School/92>,
+    <http://knowdive.disi.unitn.it/etype#School/93>, <http://knowdive.disi.unitn.it/etype#School/94>,
+    <http://knowdive.disi.unitn.it/etype#School/95>, <http://knowdive.disi.unitn.it/etype#School/96>,
+    <http://knowdive.disi.unitn.it/etype#School/97>, <http://knowdive.disi.unitn.it/etype#School/98> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/27> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/99>, <http://knowdive.disi.unitn.it/etype#School/100>,
+    <http://knowdive.disi.unitn.it/etype#School/101>, <http://knowdive.disi.unitn.it/etype#School/102>,
+    <http://knowdive.disi.unitn.it/etype#School/103>, <http://knowdive.disi.unitn.it/etype#School/104> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/28> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/105>, <http://knowdive.disi.unitn.it/etype#School/106>,
+    <http://knowdive.disi.unitn.it/etype#School/107>, <http://knowdive.disi.unitn.it/etype#School/108>,
+    <http://knowdive.disi.unitn.it/etype#School/109>, <http://knowdive.disi.unitn.it/etype#School/110>,
+    <http://knowdive.disi.unitn.it/etype#School/111>, <http://knowdive.disi.unitn.it/etype#School/112> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/29> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/113>, <http://knowdive.disi.unitn.it/etype#School/114>,
+    <http://knowdive.disi.unitn.it/etype#School/115>, <http://knowdive.disi.unitn.it/etype#School/116>,
+    <http://knowdive.disi.unitn.it/etype#School/117>, <http://knowdive.disi.unitn.it/etype#School/118>,
+    <http://knowdive.disi.unitn.it/etype#School/119> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/30> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/120>, <http://knowdive.disi.unitn.it/etype#School/121>,
+    <http://knowdive.disi.unitn.it/etype#School/122>, <http://knowdive.disi.unitn.it/etype#School/123>,
+    <http://knowdive.disi.unitn.it/etype#School/124>, <http://knowdive.disi.unitn.it/etype#School/125>,
+    <http://knowdive.disi.unitn.it/etype#School/126>, <http://knowdive.disi.unitn.it/etype#School/127>,
+    <http://knowdive.disi.unitn.it/etype#School/128>, <http://knowdive.disi.unitn.it/etype#School/129>,
+    <http://knowdive.disi.unitn.it/etype#School/130> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/31> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/131>, <http://knowdive.disi.unitn.it/etype#School/132>,
+    <http://knowdive.disi.unitn.it/etype#School/133>, <http://knowdive.disi.unitn.it/etype#School/134>,
+    <http://knowdive.disi.unitn.it/etype#School/135>, <http://knowdive.disi.unitn.it/etype#School/136>,
+    <http://knowdive.disi.unitn.it/etype#School/137>, <http://knowdive.disi.unitn.it/etype#School/138> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/32> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/139>, <http://knowdive.disi.unitn.it/etype#School/140>,
+    <http://knowdive.disi.unitn.it/etype#School/141>, <http://knowdive.disi.unitn.it/etype#School/142>,
+    <http://knowdive.disi.unitn.it/etype#School/143>, <http://knowdive.disi.unitn.it/etype#School/144>,
+    <http://knowdive.disi.unitn.it/etype#School/145>, <http://knowdive.disi.unitn.it/etype#School/146>,
+    <http://knowdive.disi.unitn.it/etype#School/147> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/33> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/148>, <http://knowdive.disi.unitn.it/etype#School/149>,
+    <http://knowdive.disi.unitn.it/etype#School/150>, <http://knowdive.disi.unitn.it/etype#School/151>,
+    <http://knowdive.disi.unitn.it/etype#School/152>, <http://knowdive.disi.unitn.it/etype#School/153> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/34> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/154>, <http://knowdive.disi.unitn.it/etype#School/155>,
+    <http://knowdive.disi.unitn.it/etype#School/156> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/35> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/157> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/36> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/158>, <http://knowdive.disi.unitn.it/etype#School/159>,
+    <http://knowdive.disi.unitn.it/etype#School/160> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/37> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/161>, <http://knowdive.disi.unitn.it/etype#School/162>,
+    <http://knowdive.disi.unitn.it/etype#School/163> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/38> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/164>, <http://knowdive.disi.unitn.it/etype#School/165>,
+    <http://knowdive.disi.unitn.it/etype#School/166> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/39> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/167>, <http://knowdive.disi.unitn.it/etype#School/168>,
+    <http://knowdive.disi.unitn.it/etype#School/169>, <http://knowdive.disi.unitn.it/etype#School/170>,
+    <http://knowdive.disi.unitn.it/etype#School/171>, <http://knowdive.disi.unitn.it/etype#School/172> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/40> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/173>, <http://knowdive.disi.unitn.it/etype#School/174>,
+    <http://knowdive.disi.unitn.it/etype#School/175>, <http://knowdive.disi.unitn.it/etype#School/176>,
+    <http://knowdive.disi.unitn.it/etype#School/177>, <http://knowdive.disi.unitn.it/etype#School/178> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/41> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/179>, <http://knowdive.disi.unitn.it/etype#School/180>,
+    <http://knowdive.disi.unitn.it/etype#School/181>, <http://knowdive.disi.unitn.it/etype#School/182> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/42> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/183>, <http://knowdive.disi.unitn.it/etype#School/184>,
+    <http://knowdive.disi.unitn.it/etype#School/185>, <http://knowdive.disi.unitn.it/etype#School/186> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/43> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/187>, <http://knowdive.disi.unitn.it/etype#School/188>,
+    <http://knowdive.disi.unitn.it/etype#School/189>, <http://knowdive.disi.unitn.it/etype#School/190>,
+    <http://knowdive.disi.unitn.it/etype#School/191> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/44> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/192>, <http://knowdive.disi.unitn.it/etype#School/193>,
+    <http://knowdive.disi.unitn.it/etype#School/194> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/45> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/195>, <http://knowdive.disi.unitn.it/etype#School/196>,
+    <http://knowdive.disi.unitn.it/etype#School/197>, <http://knowdive.disi.unitn.it/etype#School/198>,
+    <http://knowdive.disi.unitn.it/etype#School/199>, <http://knowdive.disi.unitn.it/etype#School/200>,
+    <http://knowdive.disi.unitn.it/etype#School/201>, <http://knowdive.disi.unitn.it/etype#School/202> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/46> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/203>, <http://knowdive.disi.unitn.it/etype#School/204>,
+    <http://knowdive.disi.unitn.it/etype#School/205>, <http://knowdive.disi.unitn.it/etype#School/206>,
+    <http://knowdive.disi.unitn.it/etype#School/207>, <http://knowdive.disi.unitn.it/etype#School/208> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/47> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/209>, <http://knowdive.disi.unitn.it/etype#School/210>,
+    <http://knowdive.disi.unitn.it/etype#School/211>, <http://knowdive.disi.unitn.it/etype#School/212> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/48> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/213>, <http://knowdive.disi.unitn.it/etype#School/214> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/49> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/215>, <http://knowdive.disi.unitn.it/etype#School/216>,
+    <http://knowdive.disi.unitn.it/etype#School/217>, <http://knowdive.disi.unitn.it/etype#School/218>,
+    <http://knowdive.disi.unitn.it/etype#School/219>, <http://knowdive.disi.unitn.it/etype#School/220>,
+    <http://knowdive.disi.unitn.it/etype#School/221>, <http://knowdive.disi.unitn.it/etype#School/222>,
+    <http://knowdive.disi.unitn.it/etype#School/223> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/50> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/224>, <http://knowdive.disi.unitn.it/etype#School/225>,
+    <http://knowdive.disi.unitn.it/etype#School/226>, <http://knowdive.disi.unitn.it/etype#School/227>,
+    <http://knowdive.disi.unitn.it/etype#School/228>, <http://knowdive.disi.unitn.it/etype#School/229>,
+    <http://knowdive.disi.unitn.it/etype#School/230>, <http://knowdive.disi.unitn.it/etype#School/231>,
+    <http://knowdive.disi.unitn.it/etype#School/232> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/51> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/233>, <http://knowdive.disi.unitn.it/etype#School/234>,
+    <http://knowdive.disi.unitn.it/etype#School/235>, <http://knowdive.disi.unitn.it/etype#School/236>,
+    <http://knowdive.disi.unitn.it/etype#School/237>, <http://knowdive.disi.unitn.it/etype#School/238>,
+    <http://knowdive.disi.unitn.it/etype#School/239>, <http://knowdive.disi.unitn.it/etype#School/240>,
+    <http://knowdive.disi.unitn.it/etype#School/241> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/52> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/242>, <http://knowdive.disi.unitn.it/etype#School/243>,
+    <http://knowdive.disi.unitn.it/etype#School/244>, <http://knowdive.disi.unitn.it/etype#School/245>,
+    <http://knowdive.disi.unitn.it/etype#School/246>, <http://knowdive.disi.unitn.it/etype#School/247> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/53> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/248>, <http://knowdive.disi.unitn.it/etype#School/249>,
+    <http://knowdive.disi.unitn.it/etype#School/250>, <http://knowdive.disi.unitn.it/etype#School/251> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/54> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/252>, <http://knowdive.disi.unitn.it/etype#School/253>,
+    <http://knowdive.disi.unitn.it/etype#School/254>, <http://knowdive.disi.unitn.it/etype#School/255>,
+    <http://knowdive.disi.unitn.it/etype#School/256>, <http://knowdive.disi.unitn.it/etype#School/257> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/55> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/258>, <http://knowdive.disi.unitn.it/etype#School/259>,
+    <http://knowdive.disi.unitn.it/etype#School/260>, <http://knowdive.disi.unitn.it/etype#School/261>,
+    <http://knowdive.disi.unitn.it/etype#School/262>, <http://knowdive.disi.unitn.it/etype#School/263>,
+    <http://knowdive.disi.unitn.it/etype#School/264>, <http://knowdive.disi.unitn.it/etype#School/265>,
+    <http://knowdive.disi.unitn.it/etype#School/266> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/56> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/267>, <http://knowdive.disi.unitn.it/etype#School/268>,
+    <http://knowdive.disi.unitn.it/etype#School/269>, <http://knowdive.disi.unitn.it/etype#School/270>,
+    <http://knowdive.disi.unitn.it/etype#School/271>, <http://knowdive.disi.unitn.it/etype#School/272>,
+    <http://knowdive.disi.unitn.it/etype#School/273>, <http://knowdive.disi.unitn.it/etype#School/274> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/57> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/275>, <http://knowdive.disi.unitn.it/etype#School/276>,
+    <http://knowdive.disi.unitn.it/etype#School/277>, <http://knowdive.disi.unitn.it/etype#School/278>,
+    <http://knowdive.disi.unitn.it/etype#School/279>, <http://knowdive.disi.unitn.it/etype#School/280>,
+    <http://knowdive.disi.unitn.it/etype#School/281>, <http://knowdive.disi.unitn.it/etype#School/282>,
+    <http://knowdive.disi.unitn.it/etype#School/283>, <http://knowdive.disi.unitn.it/etype#School/284> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/58> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/285>, <http://knowdive.disi.unitn.it/etype#School/286>,
+    <http://knowdive.disi.unitn.it/etype#School/287>, <http://knowdive.disi.unitn.it/etype#School/288>,
+    <http://knowdive.disi.unitn.it/etype#School/289>, <http://knowdive.disi.unitn.it/etype#School/290> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/59> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/291>, <http://knowdive.disi.unitn.it/etype#School/292>,
+    <http://knowdive.disi.unitn.it/etype#School/293> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/60> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/294>, <http://knowdive.disi.unitn.it/etype#School/295>,
+    <http://knowdive.disi.unitn.it/etype#School/296>, <http://knowdive.disi.unitn.it/etype#School/297> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/61> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/298>, <http://knowdive.disi.unitn.it/etype#School/299>,
+    <http://knowdive.disi.unitn.it/etype#School/300>, <http://knowdive.disi.unitn.it/etype#School/301>,
+    <http://knowdive.disi.unitn.it/etype#School/302> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/62> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/303>, <http://knowdive.disi.unitn.it/etype#School/304>,
+    <http://knowdive.disi.unitn.it/etype#School/305>, <http://knowdive.disi.unitn.it/etype#School/306>,
+    <http://knowdive.disi.unitn.it/etype#School/307> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/63> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/308>, <http://knowdive.disi.unitn.it/etype#School/309>,
+    <http://knowdive.disi.unitn.it/etype#School/310>, <http://knowdive.disi.unitn.it/etype#School/311>,
+    <http://knowdive.disi.unitn.it/etype#School/312>, <http://knowdive.disi.unitn.it/etype#School/313>,
+    <http://knowdive.disi.unitn.it/etype#School/314>, <http://knowdive.disi.unitn.it/etype#School/315>,
+    <http://knowdive.disi.unitn.it/etype#School/316> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/64> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/317>, <http://knowdive.disi.unitn.it/etype#School/318>,
+    <http://knowdive.disi.unitn.it/etype#School/319> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/65> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/320>, <http://knowdive.disi.unitn.it/etype#School/321>,
+    <http://knowdive.disi.unitn.it/etype#School/322>, <http://knowdive.disi.unitn.it/etype#School/323>,
+    <http://knowdive.disi.unitn.it/etype#School/324>, <http://knowdive.disi.unitn.it/etype#School/325> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/66> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/326>, <http://knowdive.disi.unitn.it/etype#School/327>,
+    <http://knowdive.disi.unitn.it/etype#School/328>, <http://knowdive.disi.unitn.it/etype#School/329>,
+    <http://knowdive.disi.unitn.it/etype#School/330> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/67> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/331>, <http://knowdive.disi.unitn.it/etype#School/332>,
+    <http://knowdive.disi.unitn.it/etype#School/333>, <http://knowdive.disi.unitn.it/etype#School/334>,
+    <http://knowdive.disi.unitn.it/etype#School/335> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/68> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/336>, <http://knowdive.disi.unitn.it/etype#School/337>,
+    <http://knowdive.disi.unitn.it/etype#School/338>, <http://knowdive.disi.unitn.it/etype#School/339> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/69> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/340>, <http://knowdive.disi.unitn.it/etype#School/341>,
+    <http://knowdive.disi.unitn.it/etype#School/342>, <http://knowdive.disi.unitn.it/etype#School/343> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/70> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/344>, <http://knowdive.disi.unitn.it/etype#School/345>,
+    <http://knowdive.disi.unitn.it/etype#School/346>, <http://knowdive.disi.unitn.it/etype#School/347>,
+    <http://knowdive.disi.unitn.it/etype#School/348> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/71> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/349>, <http://knowdive.disi.unitn.it/etype#School/350>,
+    <http://knowdive.disi.unitn.it/etype#School/351> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/72> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/352>, <http://knowdive.disi.unitn.it/etype#School/353>,
+    <http://knowdive.disi.unitn.it/etype#School/354>, <http://knowdive.disi.unitn.it/etype#School/355> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/73> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/356>, <http://knowdive.disi.unitn.it/etype#School/357>,
+    <http://knowdive.disi.unitn.it/etype#School/358>, <http://knowdive.disi.unitn.it/etype#School/359>,
+    <http://knowdive.disi.unitn.it/etype#School/360>, <http://knowdive.disi.unitn.it/etype#School/361>,
+    <http://knowdive.disi.unitn.it/etype#School/362>, <http://knowdive.disi.unitn.it/etype#School/363> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/74> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/364>, <http://knowdive.disi.unitn.it/etype#School/365>,
+    <http://knowdive.disi.unitn.it/etype#School/366>, <http://knowdive.disi.unitn.it/etype#School/367>,
+    <http://knowdive.disi.unitn.it/etype#School/368> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/75> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/369>, <http://knowdive.disi.unitn.it/etype#School/370>,
+    <http://knowdive.disi.unitn.it/etype#School/371>, <http://knowdive.disi.unitn.it/etype#School/372>,
+    <http://knowdive.disi.unitn.it/etype#School/373>, <http://knowdive.disi.unitn.it/etype#School/374>,
+    <http://knowdive.disi.unitn.it/etype#School/375> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/76> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/376>, <http://knowdive.disi.unitn.it/etype#School/377>,
+    <http://knowdive.disi.unitn.it/etype#School/378> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/77> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/379>, <http://knowdive.disi.unitn.it/etype#School/380>,
+    <http://knowdive.disi.unitn.it/etype#School/381>, <http://knowdive.disi.unitn.it/etype#School/382>,
+    <http://knowdive.disi.unitn.it/etype#School/383> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/78> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/384>, <http://knowdive.disi.unitn.it/etype#School/385>,
+    <http://knowdive.disi.unitn.it/etype#School/386>, <http://knowdive.disi.unitn.it/etype#School/387>,
+    <http://knowdive.disi.unitn.it/etype#School/388> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/79> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/389>, <http://knowdive.disi.unitn.it/etype#School/390>,
+    <http://knowdive.disi.unitn.it/etype#School/391>, <http://knowdive.disi.unitn.it/etype#School/392> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/80> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/393>, <http://knowdive.disi.unitn.it/etype#School/394>,
+    <http://knowdive.disi.unitn.it/etype#School/395>, <http://knowdive.disi.unitn.it/etype#School/396> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/81> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/397>, <http://knowdive.disi.unitn.it/etype#School/398>,
+    <http://knowdive.disi.unitn.it/etype#School/399>, <http://knowdive.disi.unitn.it/etype#School/400>,
+    <http://knowdive.disi.unitn.it/etype#School/401>, <http://knowdive.disi.unitn.it/etype#School/402>,
+    <http://knowdive.disi.unitn.it/etype#School/403> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/82> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/404>, <http://knowdive.disi.unitn.it/etype#School/405>,
+    <http://knowdive.disi.unitn.it/etype#School/406>, <http://knowdive.disi.unitn.it/etype#School/407>,
+    <http://knowdive.disi.unitn.it/etype#School/408> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/83> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/409>, <http://knowdive.disi.unitn.it/etype#School/410>,
+    <http://knowdive.disi.unitn.it/etype#School/411>, <http://knowdive.disi.unitn.it/etype#School/412>,
+    <http://knowdive.disi.unitn.it/etype#School/413>, <http://knowdive.disi.unitn.it/etype#School/414>,
+    <http://knowdive.disi.unitn.it/etype#School/415>, <http://knowdive.disi.unitn.it/etype#School/416>,
+    <http://knowdive.disi.unitn.it/etype#School/417>, <http://knowdive.disi.unitn.it/etype#School/418> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/84> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/419>, <http://knowdive.disi.unitn.it/etype#School/420>,
+    <http://knowdive.disi.unitn.it/etype#School/421>, <http://knowdive.disi.unitn.it/etype#School/422>,
+    <http://knowdive.disi.unitn.it/etype#School/423>, <http://knowdive.disi.unitn.it/etype#School/424>,
+    <http://knowdive.disi.unitn.it/etype#School/425>, <http://knowdive.disi.unitn.it/etype#School/426>,
+    <http://knowdive.disi.unitn.it/etype#School/427>, <http://knowdive.disi.unitn.it/etype#School/428>,
+    <http://knowdive.disi.unitn.it/etype#School/429> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/85> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/430>, <http://knowdive.disi.unitn.it/etype#School/431>,
+    <http://knowdive.disi.unitn.it/etype#School/432>, <http://knowdive.disi.unitn.it/etype#School/433> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/86> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/434>, <http://knowdive.disi.unitn.it/etype#School/435>,
+    <http://knowdive.disi.unitn.it/etype#School/436>, <http://knowdive.disi.unitn.it/etype#School/437> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/87> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/438>, <http://knowdive.disi.unitn.it/etype#School/439>,
+    <http://knowdive.disi.unitn.it/etype#School/440>, <http://knowdive.disi.unitn.it/etype#School/441>,
+    <http://knowdive.disi.unitn.it/etype#School/442> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/88> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/443>, <http://knowdive.disi.unitn.it/etype#School/444>,
+    <http://knowdive.disi.unitn.it/etype#School/445>, <http://knowdive.disi.unitn.it/etype#School/446> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/89> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/447>, <http://knowdive.disi.unitn.it/etype#School/448>,
+    <http://knowdive.disi.unitn.it/etype#School/449>, <http://knowdive.disi.unitn.it/etype#School/450> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/90> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/451>, <http://knowdive.disi.unitn.it/etype#School/452>,
+    <http://knowdive.disi.unitn.it/etype#School/453>, <http://knowdive.disi.unitn.it/etype#School/454>,
+    <http://knowdive.disi.unitn.it/etype#School/455> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/91> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/456>, <http://knowdive.disi.unitn.it/etype#School/457>,
+    <http://knowdive.disi.unitn.it/etype#School/458>, <http://knowdive.disi.unitn.it/etype#School/459>,
+    <http://knowdive.disi.unitn.it/etype#School/460>, <http://knowdive.disi.unitn.it/etype#School/461>,
+    <http://knowdive.disi.unitn.it/etype#School/462>, <http://knowdive.disi.unitn.it/etype#School/463>,
+    <http://knowdive.disi.unitn.it/etype#School/464> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/92> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/465>, <http://knowdive.disi.unitn.it/etype#School/466>,
+    <http://knowdive.disi.unitn.it/etype#School/467>, <http://knowdive.disi.unitn.it/etype#School/468>,
+    <http://knowdive.disi.unitn.it/etype#School/469> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/93> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/470>, <http://knowdive.disi.unitn.it/etype#School/471>,
+    <http://knowdive.disi.unitn.it/etype#School/472>, <http://knowdive.disi.unitn.it/etype#School/473>,
+    <http://knowdive.disi.unitn.it/etype#School/474>, <http://knowdive.disi.unitn.it/etype#School/475>,
+    <http://knowdive.disi.unitn.it/etype#School/476>, <http://knowdive.disi.unitn.it/etype#School/477>,
+    <http://knowdive.disi.unitn.it/etype#School/478> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/94> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/479>, <http://knowdive.disi.unitn.it/etype#School/480>,
+    <http://knowdive.disi.unitn.it/etype#School/481>, <http://knowdive.disi.unitn.it/etype#School/482>,
+    <http://knowdive.disi.unitn.it/etype#School/483>, <http://knowdive.disi.unitn.it/etype#School/484>,
+    <http://knowdive.disi.unitn.it/etype#School/485>, <http://knowdive.disi.unitn.it/etype#School/486>,
+    <http://knowdive.disi.unitn.it/etype#School/487> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/95> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/488>, <http://knowdive.disi.unitn.it/etype#School/489>,
+    <http://knowdive.disi.unitn.it/etype#School/490>, <http://knowdive.disi.unitn.it/etype#School/491>,
+    <http://knowdive.disi.unitn.it/etype#School/492>, <http://knowdive.disi.unitn.it/etype#School/493>,
+    <http://knowdive.disi.unitn.it/etype#School/494>, <http://knowdive.disi.unitn.it/etype#School/495>,
+    <http://knowdive.disi.unitn.it/etype#School/496>, <http://knowdive.disi.unitn.it/etype#School/497>,
+    <http://knowdive.disi.unitn.it/etype#School/498> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/96> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/499>, <http://knowdive.disi.unitn.it/etype#School/500>,
+    <http://knowdive.disi.unitn.it/etype#School/501>, <http://knowdive.disi.unitn.it/etype#School/502>,
+    <http://knowdive.disi.unitn.it/etype#School/503>, <http://knowdive.disi.unitn.it/etype#School/504>,
+    <http://knowdive.disi.unitn.it/etype#School/505>, <http://knowdive.disi.unitn.it/etype#School/506> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/97> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/507>, <http://knowdive.disi.unitn.it/etype#School/508>,
+    <http://knowdive.disi.unitn.it/etype#School/509>, <http://knowdive.disi.unitn.it/etype#School/510>,
+    <http://knowdive.disi.unitn.it/etype#School/511> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/98> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/512>, <http://knowdive.disi.unitn.it/etype#School/513>,
+    <http://knowdive.disi.unitn.it/etype#School/514>, <http://knowdive.disi.unitn.it/etype#School/515>,
+    <http://knowdive.disi.unitn.it/etype#School/516> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/99> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/517> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/100> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/518>, <http://knowdive.disi.unitn.it/etype#School/519> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/101> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/520>, <http://knowdive.disi.unitn.it/etype#School/521> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/102> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/522>, <http://knowdive.disi.unitn.it/etype#School/523>,
+    <http://knowdive.disi.unitn.it/etype#School/524>, <http://knowdive.disi.unitn.it/etype#School/525>,
+    <http://knowdive.disi.unitn.it/etype#School/526> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/103> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/527>, <http://knowdive.disi.unitn.it/etype#School/528>,
+    <http://knowdive.disi.unitn.it/etype#School/529>, <http://knowdive.disi.unitn.it/etype#School/530> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/104> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/531>, <http://knowdive.disi.unitn.it/etype#School/532>,
+    <http://knowdive.disi.unitn.it/etype#School/533>, <http://knowdive.disi.unitn.it/etype#School/534>,
+    <http://knowdive.disi.unitn.it/etype#School/535> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/105> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/536>, <http://knowdive.disi.unitn.it/etype#School/537> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/106> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/538>, <http://knowdive.disi.unitn.it/etype#School/539> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/107> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/540>, <http://knowdive.disi.unitn.it/etype#School/541>,
+    <http://knowdive.disi.unitn.it/etype#School/542>, <http://knowdive.disi.unitn.it/etype#School/543>,
+    <http://knowdive.disi.unitn.it/etype#School/544>, <http://knowdive.disi.unitn.it/etype#School/545> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/108> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/546>, <http://knowdive.disi.unitn.it/etype#School/547>,
+    <http://knowdive.disi.unitn.it/etype#School/548>, <http://knowdive.disi.unitn.it/etype#School/549> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/109> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/550>, <http://knowdive.disi.unitn.it/etype#School/551>,
+    <http://knowdive.disi.unitn.it/etype#School/552>, <http://knowdive.disi.unitn.it/etype#School/553>,
+    <http://knowdive.disi.unitn.it/etype#School/554>, <http://knowdive.disi.unitn.it/etype#School/555>,
+    <http://knowdive.disi.unitn.it/etype#School/556> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/110> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/557>, <http://knowdive.disi.unitn.it/etype#School/558>,
+    <http://knowdive.disi.unitn.it/etype#School/559>, <http://knowdive.disi.unitn.it/etype#School/560>,
+    <http://knowdive.disi.unitn.it/etype#School/561>, <http://knowdive.disi.unitn.it/etype#School/562>,
+    <http://knowdive.disi.unitn.it/etype#School/563> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/111> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/564>, <http://knowdive.disi.unitn.it/etype#School/565> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/112> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/566> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/113> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/567>, <http://knowdive.disi.unitn.it/etype#School/568>,
+    <http://knowdive.disi.unitn.it/etype#School/569> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/114> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/570> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/115> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/571>, <http://knowdive.disi.unitn.it/etype#School/572> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/116> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/573>, <http://knowdive.disi.unitn.it/etype#School/574> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/117> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/575>, <http://knowdive.disi.unitn.it/etype#School/576>,
+    <http://knowdive.disi.unitn.it/etype#School/577>, <http://knowdive.disi.unitn.it/etype#School/578> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/118> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/579> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/119> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/580> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/120> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/581> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/121> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/582> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/122> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/583> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/123> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/584> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/124> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/585> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/125> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/586> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/126> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/587> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/127> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/588> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/128> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/589> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/129> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/590> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/130> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/591> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/131> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/592> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/132> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/593> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/133> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/594> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/134> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/595> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/135> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/596> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/136> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/597> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/137> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/598> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/138> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/599> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/139> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/600> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/140> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/601> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/141> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/602> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/142> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/603> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/143> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/604> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/144> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/605> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/145> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/606> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/146> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/607> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/147> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/608> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/148> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/609> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/149> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/610> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/150> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/611> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/151> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/612> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/152> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/613> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/153> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/614> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/154> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/615> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/155> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/616> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/156> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/617> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/157> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/618> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/158> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/619> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/159> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/620> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/160> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/621> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/161> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/622> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/162> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/623> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/163> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/624> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/164> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/625> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/165> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/626> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/166> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/627> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/167> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/628> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/168> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/629> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/169> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/630> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/170> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/631> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/171> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/632> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/172> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/633> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/173> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/634> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/174> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/635> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/175> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/636> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/176> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/637> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/177> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/638> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/178> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/639> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/179> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/640> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/180> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/641> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/181> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/642> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/182> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/643> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/183> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/644> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/184> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/645> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/185> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/646> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/186> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/647> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/187> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/648> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/188> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/649> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/189> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/650> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/190> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/651> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/191> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/652> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/192> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/653> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/193> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/654> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/194> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/655> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/195> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/656> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/196> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/657> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/197> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/658> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/198> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/659> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/199> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/660> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/200> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/661> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/201> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/662> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/202> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/663> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/203> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/664> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/204> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/665> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/205> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/666> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/206> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/667> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/207> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/668> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/208> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/669> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/209> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/670> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/210> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/671> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/211> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/672> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/212> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/673> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/213> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/674> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/214> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/675> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/215> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/676> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/216> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/677> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/217> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/678> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/218> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/679> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/219> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/680> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/220> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/681> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/221> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/682> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/222> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/683> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/223> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/684> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/224> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/685> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/225> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/686> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/226> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/687> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/227> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/688> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/228> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/689> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/229> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/690> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/230> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/691> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/231> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/692> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/232> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/693> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/233> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/694> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/234> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/695> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/235> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/696> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/236> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/697> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/237> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/698> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/238> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/699> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/239> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/700> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/240> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/701> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/241> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/702> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/242> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/703> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/243> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/704> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/244> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/705> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/245> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/706> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/246> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/707> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/247> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/708> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/248> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/709> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/249> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/710> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/250> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/711> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/251> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/712> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/252> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/713> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/253> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/714> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/254> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/715> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/255> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/716> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/256> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/717> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/257> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/718> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/258> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/719> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/259> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/720> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/260> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/721> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/261> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/722> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/262> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/723> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/263> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/724> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/264> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/725> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/265> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/726> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/266> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/727> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/267> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/728>, <http://knowdive.disi.unitn.it/etype#School/729>,
+    <http://knowdive.disi.unitn.it/etype#School/730>, <http://knowdive.disi.unitn.it/etype#School/731>,
+    <http://knowdive.disi.unitn.it/etype#School/732>, <http://knowdive.disi.unitn.it/etype#School/733>,
+    <http://knowdive.disi.unitn.it/etype#School/734>, <http://knowdive.disi.unitn.it/etype#School/735>,
+    <http://knowdive.disi.unitn.it/etype#School/736>, <http://knowdive.disi.unitn.it/etype#School/737> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/268> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/738>, <http://knowdive.disi.unitn.it/etype#School/739> .
+
+<http://knowdive.disi.unitn.it/etype#Institute/269> <http://knowdive.disi.unitn.it/etype#has_school>
+    <http://knowdive.disi.unitn.it/etype#School/740>, <http://knowdive.disi.unitn.it/etype#School/741>,
+    <http://knowdive.disi.unitn.it/etype#School/742>, <http://knowdive.disi.unitn.it/etype#School/743> .

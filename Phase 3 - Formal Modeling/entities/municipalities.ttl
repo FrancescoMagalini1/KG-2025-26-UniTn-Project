@@ -1,0 +1,2336 @@
+@prefix mapper: <http://www.ontotext.com/mapper/> .
+@prefix Municipality: <http://knowdive.disi.unitn.it/etype#Municipality> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ala> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ala";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "8794"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "11995"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "73"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "180"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38061";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22001";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.ala.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.76071944444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.004580555555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ala_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/albiano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "albiano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1523"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "971"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "157"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "644"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38041";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22002";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.albiano.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.15"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.2"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Albiano_(Trentino-Alto_Adige)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/aldeno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "aldeno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3274"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "900"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "364"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "209"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22003";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.aldeno.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.973825000000005"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.093711111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Aldeno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/altavalle> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "altavalle";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1632"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3368"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "48"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "673"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38092";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22235";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.altavalle.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.18333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.233333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Altavalle" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/altopiano%20della%20vigolana> a
+    <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "altopiano della vigolana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "5116"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4465"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "115"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "725"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38049";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22236";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.vigolana.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.0"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.2"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Altopiano_della_Vigolana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/amblar-don> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "amblar-don";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "552"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2011"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "27"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "971"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38011";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22237";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.amblardon.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.4"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.15"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Amblar-Don" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/andalo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "andalo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1143"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1141"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "100"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1042"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22005";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.andalo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.166666666666664"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.004444444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Andalo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/arco> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "arco";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "17763"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6332"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "281"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "91"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38062";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22006";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.arco.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.91922222222222"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.886166666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Arco_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/avio> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "avio";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4134"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6906"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "60"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "131"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38063";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22007";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.avio.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.733961111111114"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.939380555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Avio" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/baselga%20di%20piné> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "baselga di piné";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "5209"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4132"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "126"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "964"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38042";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22009";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.baselgadipine.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.12976388888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.244633333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Baselga_di_Pin%C3%A9" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bedollo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "bedollo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1491"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2727"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "55"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1059"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38043";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22011";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunebedollo.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.166666666666664"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.3"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Bedollo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/besenello> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "besenello";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2800"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2576"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "109"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "218"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22013";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.besenello.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.94194444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.108611111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Besenello" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bieno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "bieno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "465"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1171"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "40"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "815"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22015";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.bieno.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.08041111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.553961111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Bieno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bleggio%20superiore> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "bleggio superiore";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1509"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3322"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "45"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "628"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38071";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22017";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.bleggiosuperiore.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.02256944444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.823680555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Bleggio_Superiore" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bocenago> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "bocenago";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "398"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "845"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "47"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "750"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38080";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22018";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.bocenago.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.118475000000004"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.771861111111113"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Bocenago" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bondone> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "bondone";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "644"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1929"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "33"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "720"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38080";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22021";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.bondone.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.806488888888886"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.550269444444446"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Bondone" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20chiese> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "borgo chiese";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1934"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "5386"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "36"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "444"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38083";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22238";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.borgochiese.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.8906"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.6013"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Borgo_Chiese" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20d'anaunia> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "borgo d'anaunia";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2553"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6374"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "40"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "987"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38013";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22252";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.borgodanaunia.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.438852777777775"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.137330555555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Borgo_d%27Anaunia" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20lares> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "borgo lares";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "728"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2196"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "33"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "595"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38079";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22239";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.borgolares.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.03527777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.752222222222223"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Borgo_Lares" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/borgo%20valsugana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "borgo valsugana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "7081"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "5230"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "135"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "380"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38051";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22022";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.borgo-valsugana.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.05"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.45"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Borgo_Valsugana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/brentonico> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "brentonico";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4124"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6321"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "65"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "692"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22025";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.brentonico.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.81666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.95"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Brentonico" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/bresimo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "bresimo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "244"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4077"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "598"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1036"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22026";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.bresimo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.41181388888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.9709"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Bresimo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/caderzone%20terme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "caderzone terme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "696"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1866"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "37"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "723"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38080";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22029";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.caderzoneterme.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.13333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.75"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Caderzone_Terme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/calceranica%20al%20lago> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "calceranica al lago";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1395"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "386"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "361"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "465"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22032";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.calceranica.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.00361111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.2425"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Calceranica_al_Lago" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/caldes> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "caldes";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1106"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2076"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "53"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "697"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38022";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22033";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.caldes.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.36666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.95"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Caldes" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/caldonazzo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "caldonazzo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3962"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2131"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "186"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "480"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38052";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22034";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.caldonazzo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.0"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.266666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Caldonazzo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/calliano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "calliano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2038"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1064"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "192"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "187"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "CAP 38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22035";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.calliano.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.93910277777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.115402777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Calliano_(Trentino-Alto_Adige)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/campitello%20di%20fassa> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "campitello di fassa";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "700"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2502"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "28"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1448"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38031";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22036";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.campitellodifassa.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.47616666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.741525"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Campitello_di_Fassa" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/campodenno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "campodenno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1509"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2422"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "62"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "534"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22037";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunecampodenno.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.25"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.033333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Campodenno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/canal%20san%20bovo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "canal san bovo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1462"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "12513"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "12"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "757"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22038";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.canalsanbovo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.156388888888884"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.73361111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Canal_San_Bovo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/canazei> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "canazei";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1832"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6705"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "27"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1465"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38032";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22039";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.canazei.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.47688055555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.771075000000002"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Canazei" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/capriana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "capriana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "595"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1285"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "46"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1007"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22040";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunecapriana.com/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.266666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.333333333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Capriana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/carisolo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "carisolo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "921"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2549"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "36"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "808"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38080";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22042";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.carisolo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.1691"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.763769444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Carisolo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/carzano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "carzano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "510"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "175"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "291"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "433"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22043";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.carzano.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.070911111111116"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.493788888888888"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Carzano" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castel%20condino> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "castel condino";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "225"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1092"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "21"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "811"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38082";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22045";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.castelcondino.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.916666666666664"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.6"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Castel_Condino" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castel%20ivano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "castel ivano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3268"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3511"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "93"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "506"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38059";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22240";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.castel-ivano.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06636111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.523569444444446"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Castel_Ivano_(comune)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castello%20tesino> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "castello tesino";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1158"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "11227"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "10"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "871"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38053";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22048";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.castello-tesino.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.063430555555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.633311111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Castello_Tesino" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castello-molina%20di%20fiemme> a
+    <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "castello-molina di fiemme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2319"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "5481"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "42"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1005"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22047";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.castellomolina.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.272080555555554"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.4172"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Castello-Molina_di_Fiemme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/castelnuovo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "castelnuovo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1086"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "81"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "348"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22049";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.castelnuovo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.051919444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.49421111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Castelnuovo_(Trentino-Alto_Adige)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavalese> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cavalese";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3987"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4517"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "88"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1000"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38033";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22050";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunecavalese.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.29111111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.460555555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cavalese" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavareno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cavareno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1123"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "929"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "121"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "973"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38011";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22051";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.cavareno.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.40841111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.138072222222222"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cavareno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavedago> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cavedago";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "576"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1002"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "57"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "864"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22052";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.cavedago.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.18333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.033333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cavedago" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavedine> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cavedine";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3073"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3789"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "81"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "504"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38073";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22053";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.cavedine.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.0"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.966666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cavedine" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cavizzana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cavizzana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "234"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "338"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "69"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "710"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38022";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22054";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune-cavizzana.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.3675"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.957922222222221"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cavizzana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cembra%20lisignago> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cembra lisignago";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2346"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2391"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "98"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "667"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38034";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22241";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.cembralisignago.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.18333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.216666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cembra_Lisignago" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cimone> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cimone";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "729"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "995"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "73"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "530"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22058";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.cimone.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.97901944444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.0699"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cimone_(comune)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cinte%20tesino> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cinte tesino";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "357"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3087"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "12"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "851"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22059";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.cintetesino.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.05611111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.615469444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cinte_Tesino" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cis> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cis";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "292"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "552"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "53"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "732"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22060";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.cis.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.39969166666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.001586111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cis_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/civezzano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "civezzano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4211"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "271"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "469"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38045";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22061";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunecivezzano.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.100147222222226"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.18163611111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Civezzano" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/cles> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "cles";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "7309"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3962"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "184"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "658"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38023";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22062";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.cles.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.36666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.033333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cles" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/comano%20terme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "comano terme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2948"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6803"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "43"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "400"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38077";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22228";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.comanoterme.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.016666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.866666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Comano_Terme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/commezzadura> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "commezzadura";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1014"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2186"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "46"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "850"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22064";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.commezzadura.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.31666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.833333333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Commezzadura" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/contà> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "contà";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1409"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1977"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "71"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "593"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38093";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22242";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.conta.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.298138888888886"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.026711111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Cont%C3%A0" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/croviana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "croviana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "688"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "506"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "136"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "721"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38027";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22068";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.croviana.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.34471666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.904436111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Croviana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/dambel> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "dambel";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "405"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "507"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "80"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "751"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22071";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.dambel.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.4"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.1"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Dambel" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/denno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "denno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1255"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1091"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "115"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "429"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22074";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.denno.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.28333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.05"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Denno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/dimaro%20folgarida> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "dimaro folgarida";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2092"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3636"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "58"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "766"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38025";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22233";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.dimarofolgarida.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.32593888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.874377777777779"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Dimaro_Folgarida" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/drena> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "drena";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "598"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "800"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "75"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "398"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38074";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22078";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.drena.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.96666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.95"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Drena" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/dro> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "dro";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "5061"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2801"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "181"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "123"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38074";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22079";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunedro.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.96666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.916666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Dro" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fai%20della%20paganella> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "fai della paganella";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "933"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1234"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "76"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "957"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22081";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.faidellapaganella.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.18333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.066666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Fai_della_Paganella" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fiavé> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "fiavé";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1052"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2449"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "43"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "669"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38075";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22083";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.fiave.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.004444444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.842222222222222"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Fiav%C3%A9" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fierozzo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "fierozzo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "464"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1799"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "26"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1127"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22085";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.fierozzo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.11108333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.318277777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Fierozzo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/folgaria> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "folgaria";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3175"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "7111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "45"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1166"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38064";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22087";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.folgaria.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.916666666666664"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.183333333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Folgaria" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/fornace> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "fornace";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1336"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "732"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "183"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "740"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38040";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22089";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.fornace.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.118050000000004"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.20751111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Fornace_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/frassilongo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "frassilongo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "352"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1678"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "21"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "852"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22090";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.frassilongo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.083333333333336"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.3"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Frassilongo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/garniga%20terme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "garniga terme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "408"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1314"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "31"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "810"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22091";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunegarnigaterme.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.00253055555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.087061111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Garniga_Terme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/giovo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "giovo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2509"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2064"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "122"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "496"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22092";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunegiovo.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.155833333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.152777777777779"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Giovo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/giustino> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "giustino";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "740"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3883"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "19"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "770"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38086";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22093";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.giustino.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.14996111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.768011111111113"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Giustino_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/grigno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "grigno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2022"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4615"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "44"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "263"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38055";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22095";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunegrigno.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.01601111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.633788888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Grigno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/imer> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "imer";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1177"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2788"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "42"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "670"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22097";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.imer.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.15203888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.79733888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Imer" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/isera> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "isera";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2803"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1405"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "199"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "243"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22098";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.isera.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.88333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.016666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Isera" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/lavarone> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "lavarone";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1203"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2668"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "45"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1170"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38046";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22102";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://comune.lavarone.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.93333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.266666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Lavarone" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/lavis> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "lavis";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "9171"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1244"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "737"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "232"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38015";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22103";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunelavis.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.13901111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.112261111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Lavis" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ledro> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ledro";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "5395"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "15516"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "35"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "660"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38067";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22229";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.ledro.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.88869444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.732527777777777"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ledro" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/levico%20terme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "levico terme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "8264"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6284"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "132"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "506"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38056";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22104";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.levico-terme.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.016666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.3"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Levico_Terme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/livo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "livo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "766"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1534"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "50"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "741"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22106";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.livo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.4"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.016666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Livo_(Trentino-Alto_Adige)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/lona-lases> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "lona-lases";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "863"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1137"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "76"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "639"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38040";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22108";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.lonalases.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.15"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.216666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Lona-Lases" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/luserna> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "luserna";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "267"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "838"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "32"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1333"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38040";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22109";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.luserna.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.9225"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.323611111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Luserna" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/madruzzo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "madruzzo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2991"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2880"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "104"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "463"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38076";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22243";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.madruzzo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.05"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.983333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Madruzzo_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/malé> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "malé";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2266"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2690"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "84"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "738"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38027";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22110";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.male.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.35277777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.912777777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Mal%C3%A9_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/massimeno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "massimeno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "138"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2109"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "654"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "861"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38086";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22112";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.massimeno.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.14148888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.7735"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Massimeno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mazzin> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "mazzin";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "604"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2366"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "26"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1395"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22113";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.mazzin.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.47011388888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.729688888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Mazzin" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "mezzana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "877"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2750"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "32"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "940"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22114";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.mezzana.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.31666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.8"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Mezzana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "mezzano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1585"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4917"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "32"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "640"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22115";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.mezzano.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.153930555555554"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.808761111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Mezzano_(comune)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzocorona> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "mezzocorona";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "5511"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2559"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "215"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "219"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38016";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22116";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.mezzocorona.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.21666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.116666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Mezzocorona" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mezzolombardo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "mezzolombardo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "7667"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1379"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "227"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38017";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22117";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.mezzolombardo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.209722222222226"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.097777777777779"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Mezzolombardo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/moena> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "moena";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2537"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "8146"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "31"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1184"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38035";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22118";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.moena.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.376825000000004"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.65935"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Moena" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/molveno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "molveno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1119"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3393"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "33"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "865"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38018";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22120";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.molveno.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.143055555555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.964722222222221"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Molveno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/mori> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "mori";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "10208"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3325"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "307"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "204"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38065";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22123";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.mori.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.8513"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.9817"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Mori_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/nago-torbole> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "nago-torbole";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2758"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2891"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "95"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "222"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060, 38069";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22124";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.nago-torbole.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.87583333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.89111111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Nago-Torbole" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/nogaredo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "nogaredo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2071"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "382"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "542"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "216"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22127";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.nogaredo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.90886388888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.019975"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Nogaredo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/nomi> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "nomi";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1352"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "616"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "219"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "179"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22128";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.nomi.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.93333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.066666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Nomi_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/novaledo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "novaledo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1162"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "792"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "147"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "475"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22129";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.novaledo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.016666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.366666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Novaledo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/novella> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "novella";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3606"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4611"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "78"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "724"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38028";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22253";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.novella.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.391219444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.058430555555557"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Novella_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ospedaletto> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ospedaletto";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "808"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1673"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "48"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "360"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22130";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.ospedaletto.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.04348888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.552911111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ospedaletto" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ossana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ossana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "833"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2532"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "33"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1003"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38026";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22131";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.ossana.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.3"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.733333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ossana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/palù%20del%20fersina> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "palù del fersina";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "159"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1682"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "945"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1360"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22133";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.paludelfersina.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.13333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.35"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pal%C3%B9_del_Fersina" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/panchià> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "panchià";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "814"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2074"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "39"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "981"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22134";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.panchia.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.285888888888884"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.541972222222222"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Panchi%C3%A0" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/peio> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "peio";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1794"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "16275"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "11"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1173"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38024";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22136";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.peio.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.35527777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.689166666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Peio" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pellizzano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "pellizzano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "800"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4927"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "16"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "925"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22137";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.pellizzano.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.30970277777777"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.759627777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pellizzano" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pelugo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "pelugo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "397"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2198"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "18"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "652"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38079";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22138";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.pelugo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.08798055555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.72323888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pelugo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pergine%20valsugana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "pergine valsugana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "21684"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "5405"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "401"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "482"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38057";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22139";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.pergine.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.233333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pergine_Valsugana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pieve%20di%20bono-prezzo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "pieve di bono-prezzo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1456"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2480"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "59"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "514"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38085";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22234";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.pievedibono-prezzo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.94305555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.641388888888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pieve_di_Bono-Prezzo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pieve%20tesino> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "pieve tesino";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "654"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6974"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "938"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "843"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22142";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.pievetesino.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06906111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.609080555555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pieve_Tesino" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pinzolo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "pinzolo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3039"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6903"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "44"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "770"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38086";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22143";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.pinzolo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.1599"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.766"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pinzolo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/pomarolo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "pomarolo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2449"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "956"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "256"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "206"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22144";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.pomarolo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.9281"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.043080555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Pomarolo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/porte%20di%20rendena> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "porte di rendena";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1819"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4120"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "44"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "608"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38094";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22244";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.portedirendena.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.07901944444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.716130555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Porte_di_Rendena" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/predaia> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "predaia";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "6903"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "7994"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "86"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "515"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38012";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22230";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.predaia.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.32340000000001"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.0731"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Predaia" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/predazzo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "predazzo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4536"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "11031"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "41"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1018"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38037";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22147";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.predazzo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.31666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.6"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Predazzo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/primiero%20san%20martino%20di%20castrozza>
+  a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "primiero san martino di castrozza";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4983"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "20004"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "25"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "710"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38054";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22245";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comuneprimiero.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.177099999999996"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.8298"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Primiero_San_Martino_di_Castrozza" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/rabbi> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "rabbi";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1372"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "13235"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "10"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1095"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22150";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.rabbi.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.4"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.85"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Rabbi_(comune)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/riva%20del%20garda> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "riva del garda";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "17858"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4073"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "438"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "73"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38066";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22153";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.rivadelgarda.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.88333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.85"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Riva_del_Garda" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/romeno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "romeno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1497"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "907"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "165"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "961"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22155";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.romeno.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.4"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.116666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Romeno_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/roncegno%20terme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "roncegno terme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2940"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3839"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "77"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "535"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22156";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.roncegnoterme.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.05083333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.41"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Roncegno_Terme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ronchi%20valsugana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ronchi valsugana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "451"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "985"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "46"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "776"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38051";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22157";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.ronchi.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.433333333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ronchi_Valsugana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ronzo-chienis> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ronzo-chienis";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1002"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1340"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "75"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "974"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22135";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.ronzo-chienis.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.89111111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.950555555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ronzo-Chienis" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ronzone> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ronzone";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "482"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "584"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "83"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1085"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22159";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.ronzone.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.42307222222222"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.1489"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ronzone" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/roveré%20della%20luna> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "roveré della luna";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1637"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "988"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "166"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "251"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22160";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.roveredellaluna.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.25"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.166666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Rover%C3%A9_della_Luna" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/rovereto> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "rovereto";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "40047"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "5187"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "772"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "204"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38068";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22161";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.rovereto.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.88333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.034166666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Rovereto" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ruffré-mendola> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ruffré-mendola";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "420"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "677"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "62"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1200"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22162";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.ruffre.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.41481388888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.177774999999999"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ruffr%C3%A9-Mendola" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/rumo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "rumo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "788"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3094"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "25"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "944"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38020";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22163";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.rumo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.44264999999999"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.016558333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Rumo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sagron%20mis> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sagron mis";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "177"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1096"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "16"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1062"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22164";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.sagronmis.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.1956"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.9442"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sagron_Mis" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/samone> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "samone";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "546"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "499"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "109"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "673"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38059";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22165";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.samone.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.08156944444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.522780555555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Samone_(Trentino-Alto_Adige)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/san%20giovanni%20di%20fassa> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "san giovanni di fassa";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3581"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "9977"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "36"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1325"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38036";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22250";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.senjandifassa.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.43026111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.686794444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/San_Giovanni_di_Fassa" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/san%20lorenzo%20dorsino> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "san lorenzo dorsino";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1575"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "7425"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "21"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "758"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38070 e 38078";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22231";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.sanlorenzodorsino.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.0775"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.9095"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/San_Lorenzo_Dorsino" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/san%20michele%20all'adige> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "san michele all'adige";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4101"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1654"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "248"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "228"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38098";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22167";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.sanmichelealladige.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.193799999999996"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.134599999999999"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/San_Michele_all%27Adige" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sant'orsola%20terme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sant'orsola terme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1104"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1534"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "63"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1428"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22168";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.santorsolaterme.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.11666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.3"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sant%27Orsola_Terme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sanzeno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sanzeno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "927"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "789"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "118"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "640"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22169";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.sanzeno.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.36666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.066666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sanzeno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sarnonico> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sarnonico";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "789"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1118"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "71"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "963"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22170";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.sarnonico.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.418727777777775"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.140791666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sarnonico" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/scurelle> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "scurelle";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1358"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2985"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "45"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "375"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22171";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.scurelle.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06511111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.506530555555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Scurelle" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/segonzano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "segonzano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1357"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2062"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "66"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "660"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38047";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22172";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.segonzano.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.18333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.266666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Segonzano" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sella%20giudicarie> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sella giudicarie";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2948"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "8554"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "34"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "842"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38087";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22246";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunesellagiudicarie.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.98416666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.669444444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sella_Giudicarie" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sfruz> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sfruz";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "363"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1255"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "29"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1015"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22173";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.sfruz.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.333333333333336"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.116666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sfruz" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/soraga%20di%20fassa> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "soraga di fassa";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "718"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1999"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "36"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1220"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22176";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.soraga.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.39593055555555"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.668219444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Soraga_di_Fassa" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sover> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sover";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "786"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1488"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "53"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "831"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38048";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22177";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://comunesover.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.21666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.316666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sover" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/spiazzo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "spiazzo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1266"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "7076"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "18"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "645"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38088";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22179";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.spiazzo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.1036"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.739369444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Spiazzo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/spormaggiore> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "spormaggiore";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1248"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2985"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "42"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "565"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22180";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.spormaggiore.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.21666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.05"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Spormaggiore" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/sporminore> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "sporminore";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "718"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1794"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "40"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "515"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22181";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.sporminore.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.233333333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.033333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Sporminore" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/stenico> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "stenico";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1175"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4918"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "24"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "666"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38070";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22182";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.stenico.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.05"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.85"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Stenico" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/storo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "storo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4477"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6432"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "70"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "409"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38089";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22183";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.storo.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.848888888888894"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.580277777777777"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Storo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/strembo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "strembo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "582"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3919"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "15"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "714"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38080";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22184";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.strembo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.11666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.75"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Strembo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/telve> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "telve";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1905"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "6389"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "30"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "550"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22188";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.telve.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.483333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Telve" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/telve%20di%20sopra> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "telve di sopra";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "620"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1823"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "34"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "650"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22189";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunetelvedisopra.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.466666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Telve_di_Sopra" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tenna> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "tenna";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1065"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "298"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "357"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "569"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22190";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.tenna.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.016666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.266666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Tenna_(comune)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tenno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "tenno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2039"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2824"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "72"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "428"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22191";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.tenno.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.919444444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.832222222222223"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Tenno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/terragnolo> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "terragnolo";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "705"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3970"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "18"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "785"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22193";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.terragnolo.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.88333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.15"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Terragnolo" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/terre%20d'adige> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "terre d'adige";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3095"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1650"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "188"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "206"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38097";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22251";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.terredadige.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.15161111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.097219444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Terre_d%27Adige" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/terzolas> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "terzolas";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "643"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "583"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "110"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "755"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38027";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22195";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.terzolas.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.361308333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.926108333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Terzolas" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tesero> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "tesero";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2994"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "5058"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "59"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1000"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38038";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22196";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.tesero.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.289338888888885"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.511338888888888"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Tesero" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tione%20di%20trento> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "tione di trento";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3664"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3291"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "565"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38079";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22199";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comunetioneditrento.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.00936388888889"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.723194444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Tione_di_Trento" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ton> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ton";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1282"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2640"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "49"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "482"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38010";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22200";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.ton.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.266666666666666"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.083333333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ton" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/torcegno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "torcegno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "694"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1484"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "47"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "769"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22202";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.torcegno.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.45"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Torcegno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/trambileno> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "trambileno";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1473"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "5030"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "29"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "525"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38068";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22203";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.trambileno.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.83459444444445"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.125677777777778"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Trambileno" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/tre%20ville> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "tre ville";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1382"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "8247"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "17"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "556"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38095";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22247";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.treville.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.75"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Tre_Ville" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/trento> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "118886"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "15754"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "755"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "194"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38121 (nord)38122 (centro)38123 (sud)";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22205";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.trento.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.116666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Trento" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/valdaone> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "valdaone";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1147"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "17719"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "647"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "767"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38091";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22232";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.valdaone.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.9481"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.6221"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Valdaone" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/valfloriana> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "valfloriana";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "473"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3902"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "12"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "853"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38040";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22209";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.valfloriana.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.25"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.35"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Valfloriana" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vallarsa> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "vallarsa";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1392"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "7795"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "18"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "724"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22210";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.vallarsa.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.7828"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.117880555555557"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Vallarsa" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vallelaghi> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "vallelaghi";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "5256"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "7277"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "72"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "385"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38096";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22248";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.vallelaghi.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.06666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.983333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Vallelaghi" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vermiglio> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "vermiglio";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1783"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "9486"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "19"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1261"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38029";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22213";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.vermiglio.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.3"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "10.683333333333334"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Vermiglio_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/vignola-falesina> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "vignola-falesina";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "199"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1224"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "16"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "984"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38050";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22216";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.vignola-falesina.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.04436111111111"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.277380555555556"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Vignola-Falesina" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/villa%20lagarina> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "villa lagarina";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3893"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "2401"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "162"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "180"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22222";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.villalagarina.tn.it";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.916666666666664"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.033333333333333"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Villa_Lagarina" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ville%20d'anaunia> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ville d'anaunia";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "4672"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "8849"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "53"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "629"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38019";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22249";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.villedanaunia.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.31666666666667"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.05"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ville_d%27Anaunia" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ville%20di%20fiemme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ville di fiemme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "2650"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "4619"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "57"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "1160"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38099";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22254";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.villedifiemme.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.3007"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.4478"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ville_di_Fiemme" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/volano> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "volano";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "3121"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "1053"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "296"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "189"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38060";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22224";
+  <http://knowdive.disi.unitn.it/etype#has_website> "http://www.comune.volano.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "45.917180555555554"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.063511111111112"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Volano_(Italia)" .
+
+<http://knowdive.disi.unitn.it/etype#Municipality/ziano%20di%20fiemme> a <http://knowdive.disi.unitn.it/etype#Municipality>;
+  <http://knowdive.disi.unitn.it/etype#has_name> "ziano di fiemme";
+  <http://knowdive.disi.unitn.it/etype#has_province> "trento";
+  <http://knowdive.disi.unitn.it/etype#has_population> "1780"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_surface> "3543"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_density> "50"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_altitude> "953"^^xsd:int;
+  <http://knowdive.disi.unitn.it/etype#has_postal_code> "38030";
+  <http://knowdive.disi.unitn.it/etype#has_istat_code> "22226";
+  <http://knowdive.disi.unitn.it/etype#has_website> "https://www.comune.ziano.tn.it/";
+  <http://knowdive.disi.unitn.it/etype#has_latitude> "46.28644444444444"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_longitude> "11.561277777777779"^^xsd:float;
+  <http://knowdive.disi.unitn.it/etype#has_link> "https://it.wikipedia.org/wiki/Ziano_di_Fiemme" .

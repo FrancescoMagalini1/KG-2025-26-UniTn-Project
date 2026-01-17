@@ -1,0 +1,744 @@
+school;municipality
+1;trento
+2;trento
+3;trento
+4;rovereto
+5;trento
+6;trento
+7;arco
+8;arco
+9;borgo valsugana
+10;borgo valsugana
+11;cles
+12;ossana
+13;ossana
+14;primiero san martino di castrozza
+15;primiero san martino di castrozza
+16;tesero
+17;tesero
+18;tesero
+19;tione di trento
+20;tione di trento
+21;tione di trento
+22;tione di trento
+23;riva del garda
+24;riva del garda
+25;trento
+26;trento
+27;trento
+28;levico terme
+29;rovereto
+30;rovereto
+31;trento
+32;trento
+33;arco
+34;arco
+35;borgo valsugana
+36;cles
+37;cles
+38;rovereto
+39;rovereto
+40;tione di trento
+41;tione di trento
+42;trento
+43;trento
+44;trento
+45;baselga di piné
+46;capriana
+47;valfloriana
+48;civezzano
+49;ville di fiemme
+50;fierozzo
+51;baselga di piné
+52;castello-molina di fiemme
+53;bedollo
+54;baselga di piné
+55;sant'orsola terme
+56;civezzano
+57;besenello
+58;calliano
+59;isera
+60;nogaredo
+61;pomarolo
+62;rovereto
+63;rovereto
+64;rovereto
+65;borgo d'anaunia
+66;cavareno
+67;peio
+68;livo
+69;mezzana
+70;rumo
+71;dimaro folgarida
+72;pellizzano
+73;rabbi
+74;romeno
+75;ruffré-mendola
+76;sarnonico
+77;terzolas
+78;bieno
+79;altopiano della vigolana
+80;caldonazzo
+81;canal san bovo
+82;castello tesino
+83;altopiano della vigolana
+84;imer
+85;levico terme
+86;novaledo
+87;tenna
+88;altopiano della vigolana
+89;altopiano della vigolana
+90;castel ivano
+91;trento
+92;trento
+93;trento
+94;trento
+95;trento
+96;trento
+97;trento
+98;trento
+99;cimone
+100;trento
+101;trento
+102;trento
+103;trento
+104;trento
+105;madruzzo
+106;madruzzo
+107;vallelaghi
+108;trento
+109;trento
+110;trento
+111;trento
+112;trento
+113;giovo
+114;altavalle
+115;trento
+116;trento
+117;trento
+118;trento
+119;terre d'adige
+120;cavedago
+121;cles
+122;contà
+123;fai della paganella
+124;san michele all'adige
+125;ville d'anaunia
+126;novella
+127;roveré della luna
+128;san michele all'adige
+129;sporminore
+130;predaia
+131;ledro
+132;storo
+133;dro
+134;tre ville
+135;riva del garda
+136;arco
+137;ledro
+138;borgo lares
+139;vallarsa
+140;rovereto
+141;rovereto
+142;rovereto
+143;rovereto
+144;rovereto
+145;rovereto
+146;terragnolo
+147;mori
+148;trento
+149;trento
+150;trento
+151;trento
+152;trento
+153;trento
+154;rovereto
+155;rovereto
+156;rovereto
+157;trento
+158;canazei
+159;san giovanni di fassa
+160;soraga di fassa
+161;san michele all'adige
+162;san michele all'adige
+163;san michele all'adige
+164;ala
+165;ala
+166;ala
+167;aldeno
+168;cimone
+169;trento
+170;trento
+171;trento
+172;aldeno
+173;ossana
+174;peio
+175;commezzadura
+176;vermiglio
+177;vermiglio
+178;ossana
+179;calliano
+180;volano
+181;besenello
+182;rovereto
+183;bedollo
+184;baselga di piné
+185;baselga di piné
+186;baselga di piné
+187;arco
+188;arco
+189;arco
+190;arco
+191;arco
+192;avio
+193;avio
+194;avio
+195;campodenno
+196;denno
+197;ville d'anaunia
+198;contà
+199;ville d'anaunia
+200;ton
+201;ville d'anaunia
+202;denno
+203;croviana
+204;malé
+205;caldes
+206;dimaro folgarida
+207;rabbi
+208;malé
+209;borgo valsugana
+210;grigno
+211;borgo valsugana
+212;grigno
+213;brentonico
+214;brentonico
+215;capriana
+216;ville di fiemme
+217;valfloriana
+218;castello-molina di fiemme
+219;cavalese
+220;cavalese
+221;castello-molina di fiemme
+222;ville di fiemme
+223;cavalese
+224;lona-lases
+225;altavalle
+226;sover
+227;cembra lisignago
+228;segonzano
+229;giovo
+230;cembra lisignago
+231;segonzano
+232;giovo
+233;novaledo
+234;roncegno terme
+235;castelnuovo
+236;roncegno terme
+237;ronchi valsugana
+238;telve
+239;telve di sopra
+240;telve
+241;roncegno terme
+242;fornace
+243;civezzano
+244;albiano
+245;civezzano
+246;civezzano
+247;albiano
+248;livo
+249;rumo
+250;cles
+251;cles
+252;borgo chiese
+253;storo
+254;pieve di bono-prezzo
+255;storo
+256;storo
+257;pieve di bono-prezzo
+258;primiero san martino di castrozza
+259;primiero san martino di castrozza
+260;primiero san martino di castrozza
+261;primiero san martino di castrozza
+262;primiero san martino di castrozza
+263;canal san bovo
+264;mezzano
+265;primiero san martino di castrozza
+266;canal san bovo
+267;folgaria
+268;lavarone
+269;luserna
+270;folgaria
+271;folgaria
+272;lavarone
+273;lavarone
+274;folgaria
+275;novella
+276;romeno
+277;borgo d'anaunia
+278;novella
+279;borgo d'anaunia
+280;cavareno
+281;sanzeno
+282;sarnonico
+283;novella
+284;borgo d'anaunia
+285;stenico
+286;san lorenzo dorsino
+287;comano terme
+288;fiavé
+289;bleggio superiore
+290;comano terme
+291;rovereto
+292;isera
+293;rovereto
+294;terre d'adige
+295;lavis
+296;lavis
+297;lavis
+298;caldonazzo
+299;tenna
+300;calceranica al lago
+301;levico terme
+302;levico terme
+303;mezzocorona
+304;san michele all'adige
+305;roveré della luna
+306;san michele all'adige
+307;mezzocorona
+308;mezzolombardo
+309;fai della paganella
+310;molveno
+311;spormaggiore
+312;andalo
+313;terre d'adige
+314;mezzolombardo
+315;andalo
+316;spormaggiore
+317;mori
+318;ronzo-chienis
+319;mori
+320;pergine valsugana
+321;pergine valsugana
+322;fierozzo
+323;sant'orsola terme
+324;pergine valsugana
+325;pergine valsugana
+326;pergine valsugana
+327;pergine valsugana
+328;pergine valsugana
+329;pergine valsugana
+330;pergine valsugana
+331;tesero
+332;ziano di fiemme
+333;predazzo
+334;tesero
+335;predazzo
+336;riva del garda
+337;nago-torbole
+338;riva del garda
+339;riva del garda
+340;riva del garda
+341;riva del garda
+342;tenno
+343;riva del garda
+344;vallarsa
+345;terragnolo
+346;rovereto
+347;trambileno
+348;rovereto
+349;rovereto
+350;rovereto
+351;rovereto
+352;rovereto
+353;rovereto
+354;rovereto
+355;rovereto
+356;pieve tesino
+357;ospedaletto
+358;samone
+359;scurelle
+360;castel ivano
+361;castel ivano
+362;castel ivano
+363;castello tesino
+364;predaia
+365;predaia
+366;predaia
+367;predaia
+368;predaia
+369;sella giudicarie
+370;sella giudicarie
+371;tre ville
+372;tione di trento
+373;borgo lares
+374;tione di trento
+375;sella giudicarie
+376;trento
+377;trento
+378;trento
+379;trento
+380;trento
+381;trento
+382;trento
+383;trento
+384;trento
+385;trento
+386;trento
+387;trento
+388;trento
+389;trento
+390;trento
+391;trento
+392;trento
+393;trento
+394;trento
+395;trento
+396;trento
+397;trento
+398;trento
+399;trento
+400;trento
+401;trento
+402;trento
+403;trento
+404;trento
+405;trento
+406;trento
+407;trento
+408;trento
+409;tre ville
+410;pinzolo
+411;spiazzo
+412;caderzone terme
+413;giustino
+414;carisolo
+415;porte di rendena
+416;spiazzo
+417;tre ville
+418;pinzolo
+419;madruzzo
+420;cavedine
+421;dro
+422;dro
+423;madruzzo
+424;vallelaghi
+425;vallelaghi
+426;cavedine
+427;cavedine
+428;dro
+429;vallelaghi
+430;ledro
+431;ledro
+432;ledro
+433;ledro
+434;altopiano della vigolana
+435;altopiano della vigolana
+436;altopiano della vigolana
+437;altopiano della vigolana
+438;nomi
+439;villa lagarina
+440;pomarolo
+441;nogaredo
+442;villa lagarina
+443;levico terme
+444;levico terme
+445;levico terme
+446;levico terme
+447;rovereto
+448;rovereto
+449;rovereto
+450;rovereto
+451;trento
+452;trento
+453;trento
+454;trento
+455;trento
+456;borgo valsugana
+457;borgo valsugana
+458;borgo valsugana
+459;borgo valsugana
+460;borgo valsugana
+461;borgo valsugana
+462;borgo valsugana
+463;borgo valsugana
+464;borgo valsugana
+465;rovereto
+466;rovereto
+467;rovereto
+468;rovereto
+469;rovereto
+470;tione di trento
+471;tione di trento
+472;tione di trento
+473;tione di trento
+474;tione di trento
+475;tione di trento
+476;tione di trento
+477;tione di trento
+478;tione di trento
+479;cavalese
+480;predazzo
+481;predazzo
+482;cavalese
+483;predazzo
+484;cavalese
+485;cavalese
+486;cavalese
+487;cavalese
+488;pergine valsugana
+489;levico terme
+490;pergine valsugana
+491;pergine valsugana
+492;pergine valsugana
+493;pergine valsugana
+494;pergine valsugana
+495;pergine valsugana
+496;pergine valsugana
+497;pergine valsugana
+498;pergine valsugana
+499;mezzolombardo
+500;mezzolombardo
+501;mezzolombardo
+502;mezzolombardo
+503;mezzolombardo
+504;mezzolombardo
+505;mezzolombardo
+506;mezzolombardo
+507;arco
+508;arco
+509;arco
+510;arco
+511;arco
+512;trento
+513;trento
+514;trento
+515;trento
+516;trento
+517;trento
+518;mezzano
+519;mezzano
+520;trento
+521;trento
+522;cles
+523;cles
+524;cles
+525;cles
+526;cles
+527;rovereto
+528;rovereto
+529;rovereto
+530;rovereto
+531;riva del garda
+532;riva del garda
+533;riva del garda
+534;riva del garda
+535;riva del garda
+536;rovereto
+537;rovereto
+538;trento
+539;trento
+540;riva del garda
+541;riva del garda
+542;riva del garda
+543;riva del garda
+544;riva del garda
+545;riva del garda
+546;rovereto
+547;rovereto
+548;rovereto
+549;rovereto
+550;trento
+551;trento
+552;trento
+553;trento
+554;trento
+555;trento
+556;trento
+557;cles
+558;cles
+559;cles
+560;cles
+561;cles
+562;cles
+563;cles
+564;rovereto
+565;rovereto
+566;trento
+567;rovereto
+568;trento
+569;trento
+570;trento
+571;trento
+572;trento
+573;trento
+574;trento
+575;rovereto
+576;rovereto
+577;rovereto
+578;rovereto
+579;ala
+580;albiano
+581;aldeno
+582;andalo
+583;arco
+584;avio
+585;levico terme
+586;arco
+587;bondone
+588;rovereto
+589;borgo valsugana
+590;sella giudicarie
+591;brentonico
+592;calceranica al lago
+593;campitello di fassa
+594;campodenno
+595;ville di fiemme
+596;carisolo
+597;sanzeno
+598;villa lagarina
+599;castello-molina di fiemme
+600;castelnuovo
+601;cavalese
+602;cavedine
+603;cembra lisignago
+604;ala
+605;cles
+606;novella
+607;borgo chiese
+608;predaia
+609;trento
+610;brentonico
+611;valdaone
+612;denno
+613;dimaro folgarida
+614;altavalle
+615;fiavé
+616;primiero san martino di castrozza
+617;borgo d'anaunia
+618;fornace
+619;trento
+620;trento
+621;grigno
+622;pergine valsugana
+623;lavis
+624;rovereto
+625;rovereto
+626;storo
+627;lona-lases
+628;tre ville
+629;pergine valsugana
+630;malé
+631;rovereto
+632;roncegno terme
+633;trento
+634;cavalese
+635;arco
+636;cles
+637;mezzano
+638;mezzocorona
+639;mezzolombardo
+640;moena
+641;ledro
+642;predaia
+643;molveno
+644;sover
+645;mori
+646;nago-torbole
+647;terre d'adige
+648;nomi
+649;ospedaletto
+650;vallelaghi
+651;villa lagarina
+652;pergine valsugana
+653;dro
+654;pieve di bono-prezzo
+655;pieve tesino
+656;ala
+657;pinzolo
+658;comano terme
+659;trento
+660;trambileno
+661;predazzo
+662;lavis
+663;bleggio superiore
+664;vallelaghi
+665;riva del garda
+666;riva del garda
+667;riva del garda
+668;roncegno terme
+669;ronchi valsugana
+670;pergine valsugana
+671;sella giudicarie
+672;ronzo-chienis
+673;rovereto
+674;rovereto
+675;comano terme
+676;san lorenzo dorsino
+677;ala
+678;avio
+679;primiero san martino di castrozza
+680;madruzzo
+681;scurelle
+682;predaia
+683;segonzano
+684;ala
+685;pergine valsugana
+686;predaia
+687;trento
+688;spiazzo
+689;spormaggiore
+690;stenico
+691;storo
+692;castel ivano
+693;pergine valsugana
+694;predaia
+695;telve
+696;tenno
+697;tesero
+698;grigno
+699;tione di trento
+700;primiero san martino di castrozza
+701;nago-torbole
+702;torcegno
+703;primiero san martino di castrozza
+704;trento
+705;trento
+706;trento
+707;trento
+708;trento
+709;trento
+710;trento
+711;trento
+712;trento
+713;trento
+714;ville d'anaunia
+715;riva del garda
+716;vermiglio
+717;vallelaghi
+718;cavedine
+719;trento
+720;san giovanni di fassa
+721;ton
+722;comano terme
+723;villa lagarina
+724;trento
+725;trento
+726;volano
+727;ziano di fiemme
+728;san giovanni di fassa
+729;san giovanni di fassa
+730;san giovanni di fassa
+731;san giovanni di fassa
+732;san giovanni di fassa
+733;canazei
+734;moena
+735;moena
+736;campitello di fassa
+737;san giovanni di fassa
+738;rovereto
+739;rovereto
+740;civezzano
+741;civezzano
+742;civezzano
+743;civezzano
