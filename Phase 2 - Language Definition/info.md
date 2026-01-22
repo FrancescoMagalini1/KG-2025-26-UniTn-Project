@@ -1,1 +1,1 @@
-In this directory you have store all the material considered and created for the language definition phase
+This directory contains all the material for the language definition phase.

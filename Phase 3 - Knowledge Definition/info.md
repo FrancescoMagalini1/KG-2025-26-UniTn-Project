@@ -1,1 +1,1 @@
-In this directory you have store all the material considered and created for the knowledge definition phase
+This directory contains all the material for the knowledge definition phase.
