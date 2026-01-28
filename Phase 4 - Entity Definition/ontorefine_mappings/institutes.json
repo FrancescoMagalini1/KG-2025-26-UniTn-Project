@@ -1,0 +1,464 @@
+{
+  "baseIRI": "http://knowdive.disi.unitn.it/etype#",
+  "namespaces": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "main institute",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_institute_type"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "institute type",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_administration_type"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "administration type",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_manager"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "manager",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_director"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "director",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_educational_coordinator"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "educational coordinator",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_address"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "address",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_telephone"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "telephone",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_fax"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "fax",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_email"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "institute email",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_management_email"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "management email",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_secretarys_office_email"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "secretary's office email",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_link"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "vivoscuola institute link",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_website"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "website",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_miur_code"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "miur code",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "\"http://knowdive.disi.unitn.it/etype#Institute/\" + cells[\"index\"].value",
+          "language": "grel"
+        },
+        "valueSource": {
+          "source": "row_index"
+        }
+      },
+      "typeMappings": [
+        {
+          "valueSource": {
+            "source": "constant",
+            "constant": "http://knowdive.disi.unitn.it/etype#Institute"
+          }
+        }
+      ]
+    }
+  ]
+}

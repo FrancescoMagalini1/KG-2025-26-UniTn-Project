@@ -1,0 +1,44 @@
+{
+  "baseIRI": "http://knowdive.disi.unitn.it/etype#",
+  "namespaces": {},
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_school"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "\"http://knowdive.disi.unitn.it/etype#School/\"+cells[\"school\"].value",
+                "language": "grel"
+              },
+              "valueSource": {
+                "source": "row_index"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "\"http://knowdive.disi.unitn.it/etype#Institute/\"+cells[\"institute\"].value",
+          "language": "grel"
+        },
+        "valueSource": {
+          "source": "row_index"
+        }
+      },
+      "typeMappings": []
+    }
+  ]
+}

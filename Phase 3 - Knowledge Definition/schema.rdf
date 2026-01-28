@@ -373,29 +373,11 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#AdministrativeArea -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#AdministrativeArea">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Place"/>
-        <rdfs:comment>A geographical region, typically under the jurisdiction of a particular government.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#EducationalOrganization -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#EducationalOrganization">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Organization"/>
-        <rdfs:comment>An educational organization.</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://knowdive.disi.unitn.it/etype#Grade_Statistics -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Grade_Statistics">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#StructuredValue"/>
-        <rdfs:comment>Information regarding the admission rates for a certain school, during a specific academing year and for a determined school year.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+        <rdfs:comment>Information regarding the admission rates for a certain school, during a specific academic year and for a determined school year.</rdfs:comment>
     </owl:Class>
     
 
@@ -403,16 +385,8 @@
     <!-- http://knowdive.disi.unitn.it/etype#Institute -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Institute">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#EducationalOrganization"/>
+        <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
         <rdfs:comment>Institutes (&quot;Istituti comprensivi&quot;) are administrative units that bring together one or more schools in order to ensure educational continuity within the same cycle of education.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Intangible -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Intangible">
-        <rdfs:comment>A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</rdfs:comment>
     </owl:Class>
     
 
@@ -420,24 +394,8 @@
     <!-- http://knowdive.disi.unitn.it/etype#Municipality -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Municipality">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#AdministrativeArea"/>
+        <rdfs:subClassOf rdf:resource="https://schema.org/AdministrativeArea"/>
         <rdfs:comment>The smallest civil administrative unit in Italy, also called &quot;Comune&quot; in Italian.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Organization -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Organization">
-        <rdfs:comment>An organization such as a school, NGO, corporation, club, etc.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#Place -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Place">
-        <rdfs:comment>Entities that have a somewhat fixed, physical extension.</rdfs:comment>
     </owl:Class>
     
 
@@ -445,17 +403,8 @@
     <!-- http://knowdive.disi.unitn.it/etype#School -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#School">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#EducationalOrganization"/>
+        <rdfs:subClassOf rdf:resource="https://schema.org/EducationalOrganization"/>
         <rdfs:comment>A single structure/school building in which teaching activities for a single school level (preschool, elementary, or middle school) take place.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://knowdive.disi.unitn.it/etype#StructuredValue -->
-
-    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#StructuredValue">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#Intangible"/>
-        <rdfs:comment>Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.</rdfs:comment>
     </owl:Class>
     
 
@@ -463,8 +412,59 @@
     <!-- http://knowdive.disi.unitn.it/etype#Students_Information -->
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Students_Information">
-        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#StructuredValue"/>
-        <rdfs:comment>Information regarding the number of students for a certain school, during a specific academing year and for a determined school year.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="https://schema.org/StructuredValue"/>
+        <rdfs:comment>Information regarding the number of students for a certain school, during a specific academic year and for a determined school year.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/AdministrativeArea -->
+
+    <owl:Class rdf:about="https://schema.org/AdministrativeArea">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+        <rdfs:comment>A geographical region, typically under the jurisdiction of a particular government.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/EducationalOrganization -->
+
+    <owl:Class rdf:about="https://schema.org/EducationalOrganization">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+        <rdfs:comment>An educational organization.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/Intangible -->
+
+    <owl:Class rdf:about="https://schema.org/Intangible">
+        <rdfs:comment>A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/Organization -->
+
+    <owl:Class rdf:about="https://schema.org/Organization">
+        <rdfs:comment>An organization such as a school, NGO, corporation, club, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/Place -->
+
+    <owl:Class rdf:about="https://schema.org/Place">
+        <rdfs:comment>Entities that have a somewhat fixed, physical extension.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/StructuredValue -->
+
+    <owl:Class rdf:about="https://schema.org/StructuredValue">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Intangible"/>
+        <rdfs:comment>Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.</rdfs:comment>
     </owl:Class>
     
 

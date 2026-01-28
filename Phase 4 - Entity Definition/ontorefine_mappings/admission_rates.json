@@ -1,0 +1,116 @@
+{
+  "baseIRI": "http://knowdive.disi.unitn.it/etype#",
+  "namespaces": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_academic_year"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "academic year",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_school_year"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "school year",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "valueSource": {
+              "source": "constant",
+              "constant": "http://knowdive.disi.unitn.it/etype#has_admission_rate"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "admission rate",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "float"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "\"http://knowdive.disi.unitn.it/etype#Grade_Statistics/\"+cells[\"index\"].value",
+          "language": "grel"
+        },
+        "valueSource": {
+          "source": "row_index"
+        }
+      },
+      "typeMappings": [
+        {
+          "valueSource": {
+            "source": "constant",
+            "constant": "http://knowdive.disi.unitn.it/etype#Grade_Statistics"
+          }
+        }
+      ]
+    }
+  ]
+}
