@@ -1,4 +1,4 @@
-Give me the list of private high schools from Pergine Valsugana, ordered by graduation rates
+Give me the list of high schools from Pergine Valsugana, ordered by graduation rates
 
 ```sparql
 BASE <http://knowdive.disi.unitn.it/etype#>

@@ -1,0 +1,268 @@
+[
+    {
+    "kind": 1,
+    "language": "markdown",
+    "value": "# SPARQL \r\n## Queries to Answer Competency Questions (CQs)",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ1 - Give me the complete list of schools from the Rovereto municipality",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?n where {
+    ?s rdf:type df:School .
+    ?s df:has_name ?n .
+    ?m rdf:type df:Municipality .
+    ?m df:has_name "rovereto" .
+    ?s df:has_location ?m
+} limit 100",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ2 - Give me the number of high schools in San Michele All'Adige",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select (COUNT(?s) As ?count) where {
+    ?m rdf:type df:Municipality ;
+    df:has_name "san michele all'adige" .
+    ?s rdf:type df:School;
+    df:has_location ?m .
+    ?s df:has_school_type "secondaria di secondo grado"
+}",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ3 - Give me the list of kindergartens from Lavis",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?n where {
+    ?m rdf:type df:Municipality ;
+    df:has_name "lavis" .
+    ?s rdf:type df:School;
+    df:has_name ?n;
+    df:has_location ?m .
+    ?s df:has_school_type "infanzia"
+}",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ4 - Give me the list of primary schools from Trento and nearby municipalities",
+    "metadata": {}
+  },
+    {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?n where {
+    ?m1 rdf:type df:Municipality ;
+    df:has_name "trento" .
+    ?m2 rdf:type df:Municipality ;
+    df:has_bordering_municipality ?m1 .
+    ?s rdf:type df:School;
+    df:has_name ?n;
+    df:has_school_type "primaria" .
+    {?s df:has_location ?m1  }
+    UNION
+    {?s df:has_location ?m2  }
+}",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ5 - Give me the schools in the municipalities with the highest altitude",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?n ?m ?altitude where {
+    ?m rdf:type df:Municipality ;
+    df:has_altitude ?altitude .
+    ?s rdf:type df:School;
+    df:has_name ?n;
+    df:has_location ?m
+} ORDER BY DESC(?altitude) LIMIT 20",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ6 - Give me the schools from the least populated municipalities",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?n ?m ?population where {
+    ?m rdf:type df:Municipality ;
+    df:has_population ?population .
+    ?s rdf:type df:School;
+    df:has_name ?n;
+    df:has_location ?m
+} ORDER BY ASC(?population) LIMIT 20",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ7 - Give me the list of schools with the highest admission rates to the next year",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?n ?admission_rate where {
+    ?s rdf:type df:School;
+    df:has_name ?n;
+    df:has_school_type "secondaria di secondo grado";
+    df:has_admission_rate ?admission_rate
+} ORDER BY DESC(?admission_rate) LIMIT 100",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ8 - Give me the list of high schools from Pergine Valsugana, ordered by graduation rates",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?s ?n ?admission_rate where {
+    ?m rdf:type df:Municipality;
+    df:has_name "pergine valsugana" .
+    ?s rdf:type df:School;
+    df:has_admission_rate ?admission_rate;
+    df:has_name ?n;
+    df:has_location ?m;
+    df:has_school_type "secondaria di secondo grado"
+} ORDER BY DESC(?admission_rate)",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ9 - Give me the schools with the lowest number of students",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select distinct ?s ?name where {
+    ?i rdf:type df:Students_Information;
+    df:has_number_of_students ?n .
+    ?s rdf:type df:School;
+    df:has_name ?name;
+    df:has_students_information ?i
+} ORDER BY ASC(?n) LIMIT 20",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ10 - Give me the schools with the highest number of students",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select distinct ?s ?name  where {
+    ?i rdf:type df:Students_Information;
+    df:has_number_of_students ?n .
+    ?s rdf:type df:School;
+    df:has_name ?name;
+    df:has_students_information ?i
+} ORDER BY DESC(?n) LIMIT 20",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ11 - Give me the schools with the highest number of students",
+    "metadata": {}
+  },
+    {
+    "kind": 2,
+    "language": "sparql",
+    "value": "BASE <http://knowdive.disi.unitn.it/etype#>
+PREFIX df: <http://knowdive.disi.unitn.it/etype#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ofn: <http://www.ontotext.com/sparql/functions/>
+
+select distinct ?s ?name ?distance_km_approx  where {
+    ?m rdf:type df:Municipality;
+    df:has_latitude ?lat0;
+    df:has_longitude ?lon0;
+    df:has_name "trento" .
+    ?m1 rdf:type df:Municipality;
+    df:has_latitude ?lat;
+    df:has_longitude ?lon;
+    BIND( (?lon - ?lon0) * ofn:cos( ((?lat + ?lat0)/2) * ofn:pi() / 180 ) AS ?dx ) .
+    BIND(  ?lat - ?lat0  AS ?dy ) .
+    BIND(ofn:sqrt( (?dx * ?dx) + (?dy * ?dy) ) * 111.32 AS ?distance_km_approx) .
+    ?s rdf:type df:School;
+    df:has_name ?name;
+    df:has_school_type "primaria";
+    df:has_location ?m1 .
+    FILTER( ?distance_km_approx <= 20 )
+} ORDER BY ASC(?distance_km_approx)",
+    "metadata": {}
+  },
+]
